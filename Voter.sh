@@ -4,8 +4,9 @@
 
 read -p "Enter you age:" age
 
-if [ $age -ge 18 ] then
-    echo "You're eligible"
+if [ $age -gt 18 ]
+then
+    echo "Youre eligible"
 else
-    echo "You're not elligible"
+    echo "Youre not elligible"
 fi
