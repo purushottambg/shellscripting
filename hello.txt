@@ -1,0 +1,4 @@
+we can do redirects in the unix linux
+this is hello file
+>> this is double redirect which append while > this overright
+/home/purushottam/LinuxTraining
