@@ -1,0 +1,12 @@
+total 36
+-rw-rw-r-- 1 purushottam purushottam    0 Aug  6 18:25 awk.txt
+-rwxr-xr-x 1 purushottam purushottam   98 Aug  2 11:12 DigiWatch.sh
+-rwxr-xr-x 1 purushottam purushottam   32 Aug  2 10:51 greet.sh
+-rw-rw-r-- 1 purushottam purushottam  152 Aug  5 18:14 hello.txt
+-rw-rw-r-- 1 purushottam purushottam  179 Aug  1 09:43 intro.txt
+-rw-rw-r-- 1 purushottam purushottam   72 Aug  2 10:08 namaste.sh
+drwxrwxr-x 2 purushottam purushottam 4096 Aug  2 19:35 Practice
+-rw-rw-r-- 1 purushottam purushottam   29 Aug  2 10:08 printcal.sh
+-rwxrw-rw- 1 purushottam purushottam   28 Aug  2 10:08 ramram.sh
+-rw-rw-r-- 1 purushottam purushottam   92 Aug  5 18:51 tee.txt
+ Mr. Purushottam Gutthe

@@ -1,0 +1,500 @@
+  129  sudo userdel Dr.Pallavi
+  130  sudo userdel User1
+  131  sudo userdel User2
+  132  sudo userdel User3
+  133  sudo userdel User5, User6, User7
+  134  ls /home/
+  135  sudo userdel User3
+  136  sudo userdel User4
+  137  sudo userdel User5
+  138  sudo userdel User6
+  139  sudo userdel User7
+  140  sudo deluser --remove-home User1
+  141  ls
+  142  pwd
+  143  ls
+  144  ls -a
+  145  cd Dr.Pallavi/
+  146  ls -ltr Dr.Pallavi/
+  147  ls
+  148  echo $?
+  149  sodf
+  150  echo $?
+  151  ls
+  152  cd purushottam/
+  153  LS
+  154  ls
+  155  cd /home/purushottam
+  156  ls
+  157  cd 
+  158  cd /home/
+  159  ls
+  160  cd purushottam/
+  161  ls
+  162  ls -a
+  163  su root
+  164  sdf
+  165  rss
+  166  sd
+  167  df
+  168  users
+  169  user remove purushottam
+  170  iuser remove purushottam
+  171  ls
+  172  cd Scripting/M_PrashantYT
+  173  vi UserCreation.sh
+  174  chmod 755 UserCreation.sh 
+  175  sh UserCreation.sh 
+  176  vi UserCreation.sh
+  177  sh UserCreation.sh 
+  178  vi UserCreation.sh
+  179  sh UserCreation.sh 
+  180  vi UserCreation.sh
+  181  sh UserCreation.sh 
+  182  vi UserCreation.sh
+  183  sh UserCreation.sh 
+  184  vi UserCreation.sh
+  185  sh UserCreation.sh 
+  186  vi UserCreation.sh
+  187  sh UserCreation.sh 
+  188  vi UserCreation.sh
+  189  sh UserCreation.sh 
+  190  vi UserCreation.sh
+  191  sh UserCreation.sh 
+  192  vi UserCreation.sh
+  193  sudo 
+  194  sudo root
+  195  sudo su root
+  196  sh ArchiveBiggerFiles.sh 
+  197  crontab -e
+  198  sh UserCreation.sh 
+  199  ./UserCreation.sh 
+  200  sh UserCreation.sh 
+  201  ./UserCreation.sh 
+  202  cd Scripting/M_PrashantYT
+  203  cat >> intro.txt
+  204  pwd
+  205  cd ..
+  206  ls
+  207  ls -a
+  208  ls
+  209  clear
+  210  cd /home/
+  211  ls
+  212  cd purushottam/
+  213  ls
+  214  ll
+  215  ls -a
+  216  less .bash_history 
+  217  cd
+  218  cd /home/purushottam/Scripting/M_PrashantYT
+  219  sudo root
+  220  sudo su root
+  221  ls
+  222  su root
+  223  ls
+  224  useers
+  225  users
+  226  cat etc/passwb
+  227  cat etc/passwc
+  228  cat etc/passwd
+  229  cat /etc/passwd
+  230  cat /etc/passwd
+  231  cat /etc/passwd-
+  232  cat /etc/passwd- | *puru*
+  233  cp -r /etc/passwd- /etc/passwd-
+  234  cp -r /etc/passwd- /etc/passwd
+  235  sudo su - root
+  236  ls
+  237  cat /etc/passwd
+  238  fdisk
+  239  sudo su
+  240  ls
+  241  su - purushottam 
+  242  ls
+  243  whoami
+  244  su root
+  245  su root
+  246  help
+  247  fullscreen
+  248  /etc/bin
+  249  mailx -s "First try of mailx" purushottamgutthe6767@gmail.com
+  250  sudo apt install mailutils
+  251  mailx -s "First try of mailx" purushottamgutthe6767@gmail.com
+  252  mailx -s "First try of mailx" purushottamgutthe6767@gmail.com ech
+  253  echo "This is my first mail from linux" | mailx -s "First try" purushottamgutthe6767@gmail.com
+  254  mailx -s "First try" purushottamgutthe6767@gmail.com
+  255  echo "This is my first mail from linux" | mailx -s "First try" purushottamgutthe6767@gmail.com
+  256  echo $?
+  257  cat /etc/passwd
+  258  userdel User7
+  259  su root
+  260  su root
+  261  sudo su 
+  262  sudo su - User7
+  263  ls
+  264  mkdir LinuxTraining
+  265  cd LinuxTraining/
+  266  cat intro.txt
+  267  cat >> intro.txt
+  268  ls
+  269  git init
+  270  ls -a
+  271  ls -ltr
+  272  ls - R
+  273  ls - r
+  274  ls - R
+  275  remote -v
+  276  git remote -v
+  277  git config --global user.name "Purushottamgutthe"
+  278  git config --global user.email "purushottamgutthe6767@gmail.com"
+  279  git config --global user.email
+  280  git config --global user.name
+  281  git config --global user.name "purushottamgutthe"
+  282  git config --global user.name
+  283  git config --global user.email "purushottamgutthe6767@gmail.com"
+  284  git add remote https://github.com/purushottamgutthe/shellScripting.git
+  285  git remote add https://github.com/purushottamgutthe/shellScripting.git
+  286  git add remote https://github.com/purushottamgutthe/shellScripting.git
+  287  git remote add https://github.com/purushottamgutthe/shellScripting.git
+  288  git remote add origin https://github.com/purushottamgutthe/shellScripting.git
+  289  git remote -v
+  290  git clone origin
+  291  git clone master
+  292  git clone main
+  293  git remote -r
+  294  git remote 
+  295  git clone origin
+  296  git clone main
+  297  git -r
+  298  git remote -r
+  299  git remote -R
+  300  git clone https://github.com/purushottamgutthe/shellScripting.git
+  301  git status
+  302  ls
+  303  lsr
+  304  ls -r
+  305  ls -R
+  306  mv ./shellScripting/* .
+  307  ls -R
+  308  rm ./shellScripting/
+  309  rmdir./s
+  310  rmdir ./shellScripting/
+  311  cd shellScripting/
+  312  ls
+  313  ls
+  314  ls -a
+  315  rm *
+  316  rm .
+  317  rmdir .
+  318  ls -a
+  319  mv *  ..
+  320  mv .  ..
+  321  mv ./  ..
+  322  ls -a
+  323  git status
+  324  git show
+  325  ls
+  326  cd
+  327  ls
+  328  cd LinuxTraining/
+  329  ls
+  330  vi DigiWatch.sh
+  331  chmod 755 DigiWatch.sh 
+  332  ./DigiWatch.sh 
+  333  vi DigiWatch.sh
+  334  ./DigiWatch.sh 
+  335  vi DigiWatch.sh
+  336  ./DigiWatch.sh 
+  337  vi DigiWatch.sh
+  338  ./DigiWatch.sh 
+  339  vi DigiWatch.sh
+  340  vi DigiWatch.sh
+  341  ./DigiWatch.sh 
+  342  ./DigiWatch.sh add DigiWatch.sh 
+  343  git add DigiWatch.sh 
+  344  git status
+  345  git add .
+  346  git status
+  347  git commit -m "all the files are already done" intro.txt namaste.sh printcal.sh ramram.sh 
+  348  git push main origin
+  349  git push origin main
+  350  git push origin master
+  351  git remote remove
+  352  git remote -v
+  353  git remote remove
+  354  git remote remove origin
+  355  git remote -v
+  356  ls -a
+  357  git remote add origin https://github.com/purushottamgutthe/shellscripting.git
+  358  git remote -v
+  359  git status
+  360  vi greet.sh
+  361  chmod 755 greet.sh 
+  362  git status
+  363  git add greet.sh 
+  364  git status
+  365  git commit -m "This is th first commit and only greet file will be pushed" 
+  366  git unstage DigiWatch.sh 
+  367  git remove DigiWatch.sh 
+  368  git --help
+  369  git --help rebase
+  370  git push origin master
+  371  git push origin master
+  372  git push origin master
+  373  git status
+  374  git commit -m "Removed few lines from Digiwatch"
+  375  git push origin master
+  376  sudo 
+  377  sudo root
+  378  su -purushottam
+  379  su - purushottam
+  380  top
+  381  clear
+  382  ls
+  383  C:
+  384  cd /
+  385  pwd
+  386  ls
+  387  ls -l
+  388  cd bin
+  389  ls
+  390  cd passwd 
+  391  cd passwd 
+  392  cd
+  393   cd /
+  394  ls
+  395  ls -l
+  396  cat boot
+  397  cd boot
+  398  s
+  399  ls
+  400  cd ..
+  401  ls -l
+  402  cd dev/
+  403  ls
+  404  cd .
+  405  cd ..
+  406  ls
+  407  cd /
+  408  ls -l
+  409  cd /
+  410  ls
+  411  ls -l
+  412  cd /root
+  413  sudo su
+  414  ls
+  415  ls -ltr
+  416  ls
+  417  ls -l
+  418  cd home/
+  419  ls -l
+  420  cd purushottam/
+  421  ls
+  422  cd LinuxTraining/
+  423  ls
+  424  mkdir Practice
+  425  cd Practice/
+  426  touch just
+  427  ls
+  428  cat just`
+  429  ls
+  430  cat just1
+  431  cat > just1
+  432  ls
+  433  ls -l
+  434  ls
+  435  cd ..
+  436  mkdir del
+  437  cp Practice del
+  438  cp -R Practice del
+  439  cp del/
+  440  cd del/
+  441  ls
+  442  cd ..
+  443  rm del/
+  444  rmdir del/
+  445  rm -r del/
+  446  ls
+  447  ls -l
+  448  find . -name 'Di*'
+  449  find . -name '8i*'
+  450  find . -name '*i*'
+  451  find . -name '*pu*'
+  452  ls
+  453  clear
+  454  locate 'D*'
+  455  clear
+  456  cd
+  457  cd /temp
+  458  cd te
+  459  cd /
+  460  ls
+  461  cd tmp/
+  462  ls
+  463  ln -s hulk /home/purushottam/LinuxTraining/hulk
+  464  ls
+  465  ls -ltr
+  466  ls -a
+  467  ls
+  468  ln -s /home/purushottam/LinuxTraining/hulk
+  469  ls
+  470  ls
+  471  clear
+  472  ls
+  473  ls -ltr
+  474  cat hulk
+  475  ls
+  476  rm hulk 
+  477  cd
+  478  cd /home/purushottam/LinuxTraining/
+  479  ls
+  480  cat > hulk 
+  481  cat >> hulk 
+  482  echo "Hello Bruce" hulk 
+  483  echo "Hello Bruce" > hulk 
+  484  ls
+  485  cat hulk 
+  486  rm hulk 
+  487  ls
+  488  git remote -v
+  489  git status
+  490  ls
+  491  cd
+  492  cd LinuxTraining/
+  493  ls
+  494  touch awk.txt
+  495  ls
+  496  awk --version
+  497  awk --version
+  498  ls -l  > awk.txt 
+  499  cat awk.txt 
+  500  ls -l | awk `{print $1 $2}`
+  501  ls -l | awk '{print $1 $2}'
+  502  ls -l | awk '{print $1;$2;$3}'
+  503  ls -l | awk '{print $1,$2,$3}'
+  504  ls -l | awk '{print -$NF}'
+  505  ls -l | awk '\pur (print)' awk.txt 
+  506  ls -l | awk '\a (print)' awk.txt 
+  507  ls -l | awk '/a (print)' awk.txt 
+  508  ls -l | awk '/a {print}' awk.txt 
+  509  ls -l | awk '/a/ {print}' awk.txt 
+  510  ls -l | awk '/Pa/ {print}' awk.txt 
+  511  ls -l | awk '/pa/ {print}' awk.txt 
+  512  ls -l | awk '/dr/ {print}' awk.txt 
+  513  ls -l | awk '/pallavi/ {print}' awk.txt 
+  514  cat >> awk.txt 
+  515  tail awk.txt 
+  516  vi awk.txt 
+  517  tail awk.txt 
+  518  clear
+  519  awk '/Pallavi/ {print}' awk.txt 
+  520  awk -F '{print}' awk.txt 
+  521  awk -F: '{print}' awk.txt 
+  522  awk -F0 '{print}' awk.txt 
+  523  awk -F0 '{print $1}' awk.txt 
+  524  awk -F0 '{print $3}' awk.txt 
+  525  awk 'length($0)>10' awk.txt 
+  526  awk 'length($0)>12' awk.txt 
+  527  awk 'length($0)>20' awk.txt 
+  528  awk 'length($0)>90' awk.txt 
+  529  awk 'length($0)>50' awk.txt 
+  530  awk 'length($0)>60' awk.txt 
+  531  awk 'length($0)>70' awk.txt 
+  532  awk 'length($0)>60' awk.txt 
+  533  awk 'length($0)>65' awk.txt 
+  534  awk 'length($1)>65' awk.txt 
+  535  awk 'length($1)>5' awk.txt 
+  536  clear
+  537  ls
+  538  vi grep.txt
+  539  grep he grep.txt 
+  540  ls -l | grep p
+  541  ls -l | grep palla
+  542  cat awk.txt | grep palla
+  543  cat awk.txt | grep -i  palla
+  544  cat awk.txt | grep -i  Palla
+  545  cat awk.txt | grep  Palla
+  546  cat awk.txt | grep  palla
+  547  cat awk.txt | grep  -v palla
+  548  cat awk.txt | grep  -i palla
+  549  clear
+  550  grep 'Pal|pal' awk.txt 
+  551  grep 'Pal|pal' awk.txt 
+  552  grep "Pal|pal" awk.txt 
+  553  grep "Pal|pal" awk.txt 
+  554  grep -i "Pal|pal" awk.txt 
+  555  egrep "Pal|pal" awk.txt 
+  556  ls
+  557  ls -l | sort
+  558  ls -l
+  559  ls -l | sort -r
+  560  ls -l | sort -R
+  561  sort awk.txt 
+  562  sort -r awk.txt 
+  563  ls
+  564  ls > uniqusort.txt
+  565  cat uniqusort.txt 
+  566  ls -l >> uniqusort.txt
+  567  cat uniqusort.txt 
+  568  cat uniqusort.txt | uniqu
+  569  cat uniqusort.txt | uniqe
+  570  cat uniqusort.txt | uniq
+  571  cat uniqusort.txt | uniq -d
+  572  ls -l >> uniqusort.txt
+  573  cat uniqusort.txt | uniq -d
+  574  cat uniqusort.txt | uniq 
+  575  cat uniqusort.txt | sort
+  576  cat uniqusort.txt
+  577  vi uniqusort.txt
+  578  vi uniqusort.txt
+  579  cat uniqusort.txt
+  580  cat uniqusort.txt sort
+  581  cat uniqusort.txt | sort
+  582  cat uniqusort.txt
+  583  wc uniqusort.txt 
+  584  wc -c uniqusort.txt 
+  585  wc - uniqusort.txt 
+  586  wc -l uniqusort.txt 
+  587  wc -m uniqusort.txt 
+  588  wc -M uniqusort.txt 
+  589  wc -w uniqusort.txt 
+  590  ls -l
+  591  ls -l | grep - rw | wc l
+  592  ls -l | grep - rw | wc -l
+  593  ls -l | grep -rw | wc -l
+  594  ls -l | grep rw | wc -l
+  595  diff hello.txt awk.txt 
+  596  camp hello.txt awk.txt 
+  597  cmp hello.txt awk.txt 
+  598  tar cvf try.tar .
+  599  ks
+  600  ls
+  601  ls -ltr
+  602  cat try.tar 
+  603  ls -ltr
+  604  tar xvf try.tar 
+  605  ls
+  606  ls -ltr
+  607  clear
+  608  ls -ltr
+  609  gzip try.tar 
+  610  ls -ltr
+  611  gzip -d try.tar 
+  612  ls -ltr
+  613  touch truncate.txt
+  614  ls -l truncate.txt 
+  615  echo Hello you are good learner and will be excellent soon >> truncate.txt 
+  616  ls -l truncate.txt 
+  617  truncate -s 5 truncate.txt 
+  618  cat truncate.txt 
+  619  echo Hello you are good learner and will be excellent soon >> truncate.txt 
+  620  cat truncate.txt 
+  621  truncate -s 5 truncate.txt 
+  622  cat truncate.txt 
+  623  split -l 2 awk.txt split
+  624  ls
+  625  ls -l spl*
+  626* 
+  627  cat uniqusort.txt sort
+  628  history > records.txt

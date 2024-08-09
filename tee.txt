@@ -1,0 +1,9 @@
+DigiWatch.sh
+greet.sh
+hello.txt
+intro.txt
+namaste.sh
+Practice
+printcal.sh
+ramram.sh
+tee.txt
