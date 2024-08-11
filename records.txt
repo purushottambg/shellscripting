@@ -498,3 +498,504 @@
   626* 
   627  cat uniqusort.txt sort
   628  history > records.txt
+\n\n History last on 10th Aug \n\n
+    5  ls -l | awk '/Pa/ {print}' awk.txt 
+    6  ls -l | awk '/pa/ {print}' awk.txt 
+    7  ls -l | awk '/dr/ {print}' awk.txt 
+    8  ls -l | awk '/pallavi/ {print}' awk.txt 
+    9  cat >> awk.txt 
+   10  tail awk.txt 
+   11  vi awk.txt 
+   12  tail awk.txt 
+   13  clear
+   14  awk '/Pallavi/ {print}' awk.txt 
+   15  awk -F '{print}' awk.txt 
+   16  awk -F: '{print}' awk.txt 
+   17  awk -F0 '{print}' awk.txt 
+   18  awk -F0 '{print $1}' awk.txt 
+   19  awk -F0 '{print $3}' awk.txt 
+   20  awk 'length($0)>10' awk.txt 
+   21  awk 'length($0)>12' awk.txt 
+   22  awk 'length($0)>20' awk.txt 
+   23  awk 'length($0)>90' awk.txt 
+   24  awk 'length($0)>50' awk.txt 
+   25  awk 'length($0)>60' awk.txt 
+   26  awk 'length($0)>70' awk.txt 
+   27  awk 'length($0)>60' awk.txt 
+   28  awk 'length($0)>65' awk.txt 
+   29  awk 'length($1)>65' awk.txt 
+   30  awk 'length($1)>5' awk.txt 
+   31  clear
+   32  ls
+   33  vi grep.txt
+   34  grep he grep.txt 
+   35  ls -l | grep p
+   36  ls -l | grep palla
+   37  cat awk.txt | grep palla
+   38  cat awk.txt | grep -i  palla
+   39  cat awk.txt | grep -i  Palla
+   40  cat awk.txt | grep  Palla
+   41  cat awk.txt | grep  palla
+   42  cat awk.txt | grep  -v palla
+   43  cat awk.txt | grep  -i palla
+   44  clear
+   45  grep 'Pal|pal' awk.txt 
+   46  grep 'Pal|pal' awk.txt 
+   47  grep "Pal|pal" awk.txt 
+   48  grep "Pal|pal" awk.txt 
+   49  grep -i "Pal|pal" awk.txt 
+   50  egrep "Pal|pal" awk.txt 
+   51  ls
+   52  ls -l | sort
+   53  ls -l
+   54  ls -l | sort -r
+   55  ls -l | sort -R
+   56  sort awk.txt 
+   57  sort -r awk.txt 
+   58  ls
+   59  ls > uniqusort.txt
+   60  cat uniqusort.txt 
+   61  ls -l >> uniqusort.txt
+   62  cat uniqusort.txt 
+   63  cat uniqusort.txt | uniqu
+   64  cat uniqusort.txt | uniqe
+   65  cat uniqusort.txt | uniq
+   66  cat uniqusort.txt | uniq -d
+   67  ls -l >> uniqusort.txt
+   68  cat uniqusort.txt | uniq -d
+   69  cat uniqusort.txt | uniq 
+   70  cat uniqusort.txt | sort
+   71  cat uniqusort.txt
+   72  vi uniqusort.txt
+   73  vi uniqusort.txt
+   74  cat uniqusort.txt
+   75  cat uniqusort.txt sort
+   76  cat uniqusort.txt | sort
+   77  cat uniqusort.txt
+   78  wc uniqusort.txt 
+   79  wc -c uniqusort.txt 
+   80  wc - uniqusort.txt 
+   81  wc -l uniqusort.txt 
+   82  wc -m uniqusort.txt 
+   83  wc -M uniqusort.txt 
+   84  wc -w uniqusort.txt 
+   85  ls -l
+   86  ls -l | grep - rw | wc l
+   87  ls -l | grep - rw | wc -l
+   88  ls -l | grep -rw | wc -l
+   89  ls -l | grep rw | wc -l
+   90  diff hello.txt awk.txt 
+   91  camp hello.txt awk.txt 
+   92  cmp hello.txt awk.txt 
+   93  tar cvf try.tar .
+   94  ks
+   95  ls
+   96  ls -ltr
+   97  cat try.tar 
+   98  ls -ltr
+   99  tar xvf try.tar 
+  100  ls
+  101  ls -ltr
+  102  clear
+  103  ls -ltr
+  104  gzip try.tar 
+  105  ls -ltr
+  106  gzip -d try.tar 
+  107  ls -ltr
+  108  touch truncate.txt
+  109  ls -l truncate.txt 
+  110  echo Hello you are good learner and will be excellent soon >> truncate.txt 
+  111  ls -l truncate.txt 
+  112  truncate -s 5 truncate.txt 
+  113  cat truncate.txt 
+  114  echo Hello you are good learner and will be excellent soon >> truncate.txt 
+  115  cat truncate.txt 
+  116  truncate -s 5 truncate.txt 
+  117  cat truncate.txt 
+  118  split -l 2 awk.txt split
+  119  ls
+  120  ls -l spl*
+  121  cat uniqusort.txt sort
+  122  history > records.txt
+  123  cat records.txt 
+  124  grep awk records.txt 
+  125  clrear
+  126  clear
+  127  grep awk records.txt 
+  128  cat records.txt
+  129  vi array.sh
+  130  chmod 755 array.sh 
+  131  ./array.sh 
+  132  vi array.sh
+  133  ./array.sh 
+  134  ./array.sh 
+  135  ./array.sh 
+  136  ./array.sh 
+  137  ./array.sh 
+  138  ./array.sh 
+  139  ./array.sh 
+  140  awk 'END {print NR}'
+  141  awk 'END {print NR}' records.txt 
+  142  awk 'END {print NR}' hello.txt 
+  143  cat hello.txt 
+  144  ./ifExam.sh 
+  145  printf 'ab 12 cd'|wc -c| awk '{print $1}'
+  146  ls
+  147  ls spl
+  148  ls*
+  149  ls spl*
+  150  ls spl%
+  151  ls spl*
+  152  ls -l spl*
+  153  gzip splits.giz .spl%
+  154  gzip splits.giz .spl%
+  155  gzip
+  156  gzip splits.giz .spl*
+  157  cd /
+  158  su root
+  159  su root
+  160  sudo su
+  161  su - testuser
+  162  su - testuser
+  163  cat /etc/passwd
+  164  userdel testuser
+  165  su - testuser
+  166  sudo su - testuser
+  167  usermod -d /home/testuser testuser
+  168  echo $?
+  169  usermod -d /home/testuser testuser
+  170  ls -R /home/ | grep test
+  171  cd /home/
+  172  ls
+  173  cd testuser/
+  174  su - testuser/
+  175  su - testuser/
+  176  cat /etc/passwd | grep testuser/
+  177  cd /etc/
+  178  cd passwd
+  179  cat passwd
+  180  cd ..
+  181  cd /
+  182  ls
+  183  cd home/
+  184  cd purushottam/
+  185  ls
+  186  cd LinuxTraining/
+  187  ls
+  188  rm spl*
+  189  ls
+  190  su - testuser
+  191  su - testuser
+  192  su - testuser
+  193  su -
+  194  su - root
+  195  su - testuser
+  196  sudo su - testuser
+  197  ls
+  198  cd LinuxTraining/
+  199  ls
+  200  ls -l
+  201  chmod 737 ramram.sh 
+  202  ls -l
+  203  chmod 337 ramram.sh 
+  204  ls -l
+  205  chmod 677 ramram.sh 
+  206  ls -l
+  207  ./ramram.sh
+  208  chmod 766 ramram.sh 
+  209  ls -l
+  210  ./ramram.sh 
+  211  chgrp root ramram.sh 
+  212  sudo su
+  213  clear
+  214  getfacl LinuxTraining/
+  215  setfacl u:root LinuxTraining/
+  216  setfacl -m u:root LinuxTraining/
+  217  setfacl -m u:root:rwx LinuxTraining/
+  218  getfacl LinuxTraining/
+  219  ls hello.txt
+  220  echo "This is Hello file" > hello.txt
+  221  ls 
+  222  mv hello.txt LinuxTraining/
+  223  ls
+  224  cd LinuxTraining/
+  225  ls
+  226  cat hello.txt 
+  227  cat > hello.txt 
+  228  cat hello.txt 
+  229  cat >>  hello.txt 
+  230  cat hello.txt 
+  231  cat >>  hello.txt 
+  232  cat hello.txt 
+  233  pwd
+  234  pwd >> hello.txt 
+  235  cat hello.txt 
+  236  useradd
+  237  git status
+  238  git add .
+  239  git status
+  240  git commit -m "Practice scripts done on the 5th Aug"
+  241  git push origin master
+  242  git push origin master
+  243  git push origin master
+  244  ls
+  245  git push origin main
+  246  git remote -v
+  247  ls | tee tee.txt
+  248  cat tee.txt 
+  249  clear
+  250  ls
+  251  ls | page
+  252  ls | more
+  253  head 3 hello.txt 
+  254  head 2 hello.txt 
+  255  hello.txt
+  256  cat hello.txt 
+  257  head hello.txt 
+  258  head -3 hello.txt 
+  259  ls
+  260  cat records.txt | more
+  261  cat records.txt | grep gzip | more
+  262  gzip split.gz .spl*
+  263  ls spl% | gzip split.gz 
+  264  ls spl% | gzip split.gz 
+  265  ls spl%
+  266  ls -l spl%
+  267  ls -l
+  268  ls spl%
+  269  ls 
+  270  ls -l
+  271  ls -l spl
+  272  ls spl* | gzip split.gz 
+  273  ls spl* | gzip split
+  274  ls spl* | gzip split.tar
+  275  cat records.txt | grep gzip | more
+  276  vi records.txt 
+  277  ls -l
+  278  cat awk
+  279  cat awk.txt 
+  280  sed 's/Dr. Pallavi/ sonu/' awk.txt 
+  281  sed -i 's/Dr. Pallavi/ sonu/' awk.txt 
+  282  clear
+  283  cat a
+  284  cat awk.txt 
+  285  sed - n 12, 13d
+  286  sed - n 12, 13p
+  287  sed - n 12,13p
+  288  sed - n 12,13p awk.txt 
+  289  sed -n 12,13p awk.txt 
+  290  sed -n 10,13p awk.txt 
+  291  sed -n 10,13d awk.txt 
+  292  sed -n 1,13d awk.txt 
+  293  sed -n 10,1d awk.txt 
+  294  sed -d 10,13d awk.txt 
+  295  sed 10,13d awk.txt 
+  296  sed 10,13p awk.txt 
+  297  cat awk.txt 
+  298  sed 10,13p awk.txt 
+  299  clear
+  300  cat
+  301  cat awk.txt 
+  302  sed -n 's/sonu/Mr./' awk.txt 
+  303  cat awk.txt 
+  304  sed  's/sonu/Mr./' awk.txt 
+  305  cat awk.txt 
+  306  sed  -i 's/sonu/Mr./' awk.txt 
+  307  cat awk.txt 
+  308  clear
+  309  sed 1d awk.txt 
+  310  sed 1p awk.txt 
+  311  sed 1,1d awk.txt 
+  312  sed 12,18d awk.txt 
+  313  wc -l awk.txt 
+  314  sed 10,12d aw.txt 
+  315  sed 10,12d awk.txt 
+  316  cat awk.txt 
+  317  sed 10,12d awk.txt | wc -l
+  318  sed 1,12d awk.txt | wc -l
+  319  sed 1,12n awk.txt | wc -l
+  320  sed 1,12n awk.txt
+  321  sed 1,1n awk.txt
+  322  sed 1,2n awk.txt
+  323  sed 1,2d awk.txt
+  324  useradd test1
+  325  cat /etc/groups
+  326  git staus
+  327  git staus
+  328  ls -a
+  329  git status
+  330  git add .
+  331  git status
+  332  git remote -v
+  333  git push origin master
+  334  write root
+  335  write root hii
+  336  hey
+  337  write ok
+  338  cat /etc/passwd
+  339  useradd testuser -p "test"
+  340  ls
+  341  sudo su - root
+  342  array.sh
+  343  array.sh
+  344  ./array.sh
+  345  ./array.sh
+  346  ./array.sh
+  347  ./array.sh
+  348  ./array.sh
+  349  ./array.sh
+  350  ./array.sh
+  351  ./array.sh
+  352  ./array.sh
+  353  ./array.sh
+  354  ./array.sh
+  355  ./array.sh
+  356  ./array.sh
+  357  ./array.sh
+  358  ./array.sh
+  359  ./ifSmaller.sh
+  360  ./ifExam.sh
+  361  chmod 755 ifExam.sh 
+  362  ./ifExam.sh
+  363  ./ifExam.sh
+  364  ./ifExam.sh
+  365  ./ifExam.sh
+  366  ./ifExam.sh
+  367  ./ifExam.sh
+  368  ./ifExam.sh
+  369  ./ifExam.sh
+  370  clear
+  371  ./ifExam.sh
+  372  su -
+  373  su -
+  374  sudo su - root
+  375  cd LinuxTraining/
+  376  git status
+  377  git rm spli*
+  378  git status
+  379  git restore .*
+  380  git status
+  381  git unstaged --help
+  382  git unstaged 
+  383  git help | grep unstaged
+  384  git help 
+  385  git help  git
+  386  git status
+  387  git restore -- .uniqusort.txt.swp .vscode/settings.json
+  388  git status
+  389  git restore -- .
+  390  git status
+  391  git commit -m "nothing new"
+  392  git restore -- .uniqusort.txt.swp  .vscode/settings.json 
+  393  git push origin master
+  394  git push origin master
+  395  git remote -v
+  396  git push origin master
+  397  git push origin master
+  398  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
+  399  git pull origin master
+  400  git config pull.rebase false 
+  401  git pull origin master
+  402  git pull origin master
+  403  git push origin master
+  404  cat date
+  405  date
+  406  uptime
+  407  vi utilityCommands.sh
+  408  cat utilityCommands.sh 
+  409  chmod 755 utilityCommands.sh 
+  410  ./utilityCommands.sh 
+  411  cat utilityCommands.sh 
+  412  vi utilityCommands.sh
+  413  ./utilityCommands.sh 
+  414  vi utilityCommands.sh
+  415  ./utilityCommands.sh 
+  416  vi utilityCommands.sh
+  417  ./utilityCommands.sh 
+  418  vi utilityCommands.sh
+  419  ./utilityCommands.sh 
+  420  vi utilityCommands.sh
+  421  ./utilityCommands.sh 
+  422  vi utilityCommands.sh
+  423  ./utilityCommands.sh 
+  424  ./utilityCommands.sh 
+  425  ./utilityCommands.sh 
+  426  ./utilityCommands.sh 
+  427  clear
+  428  bc
+  429  uptime 
+  430  ./utilityCommands.sh 
+  431  which
+  432  which pwd
+  433  ./utilityCommands.sh 
+  434  vi utilityCommands.sh 
+  435  ./utilityCommands.sh 
+  436  vi utilityCommands.sh 
+  437  ./utilityCommands.sh 
+  438  systemct1
+  439  systemctl
+  440  systemctl status firewalld.service
+  441  systemctl status firewalld.service
+  442  systemctl list-units --all
+  443  systemcltl status bluetooth.service
+  444  systemctl status bluetooth.service
+  445  systemctl stop bluetooth.service
+  446  systemctl status bluetooth.service
+  447  systemctl start bluetooth.service
+  448  ps -u root
+  449  ps -efu root
+  450  ps -efu root | head
+  451  kill -l
+  452  sleep 10
+  453  sleep 100
+  454  pkill sleep
+  455  ps -efu root
+  456  ps -efu root |grep sleep
+  457  ps -efu root |grep sleep
+  458  kill 9496
+  459  pkill sleep
+  460  pkill sl
+  461  ps -efu root |grep sleep
+  462  kill 9513
+  463  date +%S
+  464  date +%S%M
+  465  date +%S:%M
+  466  date +%S:%M:%h
+  467  date +%S:%M:%H
+  468  crontab -e 
+  469  pwd
+  470  crontab -e 
+  471  date
+  472  ls
+  473  ls - ltr crontab.txt
+  474  date +%s
+  475  date +%S
+  476  date +%H:%S
+  477  date +%H:%S
+  478  date +%H:%S
+  479  date +%H:%S
+  480  sleep 5
+  481  sleep 15
+  482  date +%H:%S
+  483  date +%H:%S
+  484  date +%H:%S
+  485  clear
+  486  ls -ltr cr*
+  487  cat crontab.txt 
+  488  crontab -l
+  489  at 1:12
+  490  pwd
+  491  cd /var/log/boot.log
+  492  cat /var/log/boot.log
+  493  sudo cat /var/log/boot.log
+  494  sudo cat /var/log/boot.log
+  495  systemctl set-hostname Vivobook
+  496  systemctl sethostname Vivobook
+  497  systemctl set-hostname Vivobook
+  498  hostnamectl set-hostname vbook
+  499  reboot
+  500  cd LinuxTraining/
+  501  "\n\n History last on 10th Aug " history >>  records.txt 
+  502  "\n\n History last on 10th Aug \n\n"  >>  records.txt 
+  503  echo "\n\n History last on 10th Aug \n\n"  >>  records.txt 
+  504  history >>  records.txt 
