@@ -10,3 +10,4 @@ drwxrwxr-x 2 purushottam purushottam 4096 Aug  2 19:35 Practice
 -rwxrw-rw- 1 purushottam purushottam   28 Aug  2 10:08 ramram.sh
 -rw-rw-r-- 1 purushottam purushottam   92 Aug  5 18:51 tee.txt
 -rw-rw-r-- 1 purushottam purushottam  915 Aug  7 13:58 uniqusort.txt
+lrwxrwxr-- 2 Pallvi Purushottam 1143 Jan 7 07:43 PallaviPurushotta.dr
