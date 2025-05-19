@@ -1,16 +1,1151 @@
-Script started on 2024-08-11 13:54:11+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="119" LINES="27"]
-[?2004hpurushottam@vbook:~/LinuxTraining$ df
-[?2004lFilesystem     1K-blocks     Used Available Use% Mounted on
-tmpfs             599972     2056    597916   1% /run
-/dev/nvme0n1p8  89171872 13353544  71242688  16% /
-tmpfs            2999852        0   2999852   0% /dev/shm
-tmpfs               5120        4      5116   1% /run/lock
-efivarfs             128       35        89  29% /sys/firmware/efi/efivars
-/dev/nvme0n1p7    942764   192140    685396  22% /boot
-/dev/nvme0n1p1    262144    33812    228332  13% /boot/efi
-tmpfs             599968     1648    598320   1% /run/user/1000
-[?2004hpurushottam@vbook:~/LinuxTraining$ clear
-[?2004l[H[2J[3J[?2004hpurushottam@vbook:~/LinuxTraining$ exit
-[?2004lexit
+Script started on 2025-05-18 11:39:07+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="115" LINES="31"]
+[?2004hpurushottam@vivobook:~/LinuxTraining$ more tty[K[Kypescript 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -l[Kala
+[?2004ltotal 264
+drwxrwxr-x+  4 purushottam purushottam   4096 May 18 11:37 .
+drwxr-x---  27 purushottam purushottam   4096 May 18 11:03 ..
+-rwxr-xr-x   1 purushottam purushottam     44 Aug  8  2024 array.sh
+-rw-rw-r--   1 purushottam purushottam    426 Aug  9  2024 AverageOfN.sh
+-rw-rw-r--   1 purushottam purushottam    683 Aug  8  2024 awk.txt
+-rwxrwxr-x   1 purushottam purushottam    203 Aug 16  2024 caseProg2.sh
+-rwxrwxr-x   1 purushottam purushottam    567 Aug 16  2024 caseProg.sh
+-rwxr-xr-x   1 purushottam purushottam    235 Aug 16  2024 checkFile.sh
+-rw-rw-r--   1 purushottam purushottam     55 Aug 25  2024 commitForParalla
+-rw-rw-r--   1 purushottam purushottam   7804 Nov 24 17:59 crontab.txt
+-rwxr-xr-x   1 purushottam purushottam     98 Aug  2  2024 DigiWatch.sh
+-rwxrw-r--   1 purushottam purushottam    108 Aug 11  2024 forproglife.sh
+drwxrwxr-x   8 purushottam purushottam   4096 Sep 13  2024 .git
+-rwxrwxr-x   1 purushottam purushottam     32 Sep 13  2024 greet.sh
+-rw-rw-r--   1 purushottam purushottam      6 Aug  6  2024 grep.txt
+-rwxr-xr-x   1 purushottam purushottam     78 Aug  8  2024 ifExam.sh
+-rw-rw-r--   1 purushottam purushottam    183 Aug 16  2024 intro.txt
+-rwxrwxr-x   1 purushottam purushottam     94 Aug 25  2024 namaste.sh
+-rw-rw-r--   1 purushottam purushottam   7109 Aug 10  2024 nondefaultscript
+drwxrwxr-x   2 purushottam purushottam   4096 Aug  2  2024 Practice
+-rwxr-xr-x   1 purushottam purushottam     29 Aug  2  2024 printcal.sh
+-rwxrw-r--   1 purushottam purushottam     28 Aug  2  2024 ramram.sh
+-rw-rw-r--   1 purushottam purushottam     92 Aug  5  2024 tee.txt
+-rw-rw-r--   1 purushottam purushottam      0 Aug 24  2024 trunc
+-rw-rw-r--   1 purushottam purushottam      5 Aug  7  2024 truncate.txt
+-rwxr-xr-x   1 purushottam purushottam     79 Aug  8  2024 try.sh
+-rw-rw-r--   1 purushottam purushottam 112640 Aug  7  2024 try.tar
+-rwxr-xr-x   1 purushottam purushottam    113 Aug 25  2024 tshExample.sh
+-rw-rw-r--   1 purushottam purushottam      0 May 18 11:39 typescript
+-rw-r--r--   1 purushottam purushottam  16384 May 18 11:38 .typescript.swp
+-rw-rw-r--   1 purushottam purushottam    853 Aug 16  2024 uniqusort.txt
+-rw-rw-r--   1 purushottam purushottam  12288 Aug  9  2024 .uniqusort.txt.swp
+-rwxr-xr-x   1 purushottam purushottam    142 Aug 10  2024 utilityCommands.sh
+-rw-rw-r--   1 purushottam purushottam    203 Aug  9  2024 Voter.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ lss [K[K -lat
+[?2004ltotal 268
+-rw-rw-r--   1 purushottam purushottam  32768 May 18 11:39 typescript
+-rw-r--r--   1 purushottam purushottam  16384 May 18 11:38 .typescript.swp
+drwxrwxr-x+  4 purushottam purushottam   4096 May 18 11:37 .
+drwxr-x---  27 purushottam purushottam   4096 May 18 11:03 ..
+-rw-rw-r--   1 purushottam purushottam   7804 Nov 24 17:59 crontab.txt
+drwxrwxr-x   8 purushottam purushottam   4096 Sep 13  2024 .git
+-rwxrwxr-x   1 purushottam purushottam     32 Sep 13  2024 greet.sh
+-rw-rw-r--   1 purushottam purushottam     55 Aug 25  2024 commitForParalla
+-rwxrwxr-x   1 purushottam purushottam     94 Aug 25  2024 namaste.sh
+-rwxr-xr-x   1 purushottam purushottam    113 Aug 25  2024 tshExample.sh
+-rw-rw-r--   1 purushottam purushottam      0 Aug 24  2024 trunc
+-rw-rw-r--   1 purushottam purushottam    183 Aug 16  2024 intro.txt
+-rw-rw-r--   1 purushottam purushottam    853 Aug 16  2024 uniqusort.txt
+-rwxr-xr-x   1 purushottam purushottam    235 Aug 16  2024 checkFile.sh
+-rwxrwxr-x   1 purushottam purushottam    203 Aug 16  2024 caseProg2.sh
+-rwxrwxr-x   1 purushottam purushottam    567 Aug 16  2024 caseProg.sh
+-rwxrw-r--   1 purushottam purushottam    108 Aug 11  2024 forproglife.sh
+-rw-rw-r--   1 purushottam purushottam   7109 Aug 10  2024 nondefaultscript
+-rwxr-xr-x   1 purushottam purushottam    142 Aug 10  2024 utilityCommands.sh
+-rw-rw-r--   1 purushottam purushottam    426 Aug  9  2024 AverageOfN.sh
+-rw-rw-r--   1 purushottam purushottam    203 Aug  9  2024 Voter.sh
+-rw-rw-r--   1 purushottam purushottam  12288 Aug  9  2024 .uniqusort.txt.swp
+-rw-rw-r--   1 purushottam purushottam    683 Aug  8  2024 awk.txt
+-rwxr-xr-x   1 purushottam purushottam     79 Aug  8  2024 try.sh
+-rwxr-xr-x   1 purushottam purushottam     78 Aug  8  2024 ifExam.sh
+-rwxr-xr-x   1 purushottam purushottam     44 Aug  8  2024 array.sh
+-rw-rw-r--   1 purushottam purushottam      5 Aug  7  2024 truncate.txt
+-rw-rw-r--   1 purushottam purushottam 112640 Aug  7  2024 try.tar
+-rw-rw-r--   1 purushottam purushottam      6 Aug  6  2024 grep.txt
+-rw-rw-r--   1 purushottam purushottam     92 Aug  5  2024 tee.txt
+drwxrwxr-x   2 purushottam purushottam   4096 Aug  2  2024 Practice
+-rwxr-xr-x   1 purushottam purushottam     98 Aug  2  2024 DigiWatch.sh
+-rwxr-xr-x   1 purushottam purushottam     29 Aug  2  2024 printcal.sh
+-rwxrw-r--   1 purushottam purushottam     28 Aug  2  2024 ramram.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -latd
+[?2004ldrwxrwxr-x+ 4 purushottam purushottam 4096 May 18 11:37 .
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -latd .[]!].][C*
+[?2004l-rw-r--r-- 1 purushottam purushottam 16384 May 18 11:38 .typescript.swp
+drwxrwxr-x 8 purushottam purushottam  4096 Sep 13  2024 .git
+-rw-rw-r-- 1 purushottam purushottam 12288 Aug  9  2024 .uniqusort.txt.swp
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -latd .[!.]*[C[1P .[!.]*
+[?2004l-rw-r--r-- 1 purushottam purushottam 16384 May 18 11:38 .typescript.swp
+-rw-rw-r-- 1 purushottam purushottam 12288 Aug  9  2024 .uniqusort.txt.swp
 
-Script done on 2024-08-11 13:54:29+05:30 [COMMAND_EXIT_CODE="0"]
+.git:
+total 60
+drwxrwxr-x+  4 purushottam purushottam 4096 May 18 11:37 ..
+drwxrwxr-x   8 purushottam purushottam 4096 Sep 13  2024 .
+-rw-rw-r--   1 purushottam purushottam   23 Sep 13  2024 HEAD
+-rw-rw-r--   1 purushottam purushottam 2499 Sep 13  2024 index
+drwxrwxr-x  87 purushottam purushottam 4096 Sep 13  2024 objects
+-rw-rw-r--   1 purushottam purushottam   76 Sep 13  2024 COMMIT_EDITMSG
+-rw-rw-r--   1 purushottam purushottam  303 Aug 29  2024 config
+-rw-rw-r--   1 purushottam purushottam   41 Aug 29  2024 ORIG_HEAD
+-rw-rw-r--   1 purushottam purushottam  113 Aug 29  2024 FETCH_HEAD
+drwxrwxr-x   5 purushottam purushottam 4096 Aug  2  2024 refs
+drwxrwxr-x   3 purushottam purushottam 4096 Aug  2  2024 logs
+drwxrwxr-x   2 purushottam purushottam 4096 Aug  1  2024 branches
+-rw-rw-r--   1 purushottam purushottam   73 Aug  1  2024 description
+drwxrwxr-x   2 purushottam purushottam 4096 Aug  1  2024 hooks
+drwxrwxr-x   2 purushottam purushottam 4096 Aug  1  2024 info
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -lat .[!.]* | wc -l
+[?2004l20
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -lat .[!.]* | wc -l[K[K
+[?2004l     20     156    1127
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ^C[?2004l[?2004h[?2004l
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls - l
+[?2004lls: cannot access '-': No such file or directory
+ls: cannot access 'l': No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls - l[1P[1@l
+[?2004lll: command not found
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ll - l[1Pl
+[?2004lll: command not found
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ll -l[1P -ls -l
+[?2004ltotal 236
+-rwxr-xr-x 1 purushottam purushottam     44 Aug  8  2024 array.sh
+-rw-rw-r-- 1 purushottam purushottam    426 Aug  9  2024 AverageOfN.sh
+-rw-rw-r-- 1 purushottam purushottam    683 Aug  8  2024 awk.txt
+-rwxrwxr-x 1 purushottam purushottam    203 Aug 16  2024 caseProg2.sh
+-rwxrwxr-x 1 purushottam purushottam    567 Aug 16  2024 caseProg.sh
+-rwxr-xr-x 1 purushottam purushottam    235 Aug 16  2024 checkFile.sh
+-rw-rw-r-- 1 purushottam purushottam     55 Aug 25  2024 commitForParalla
+-rw-rw-r-- 1 purushottam purushottam   7804 Nov 24 17:59 crontab.txt
+-rwxr-xr-x 1 purushottam purushottam     98 Aug  2  2024 DigiWatch.sh
+-rwxrw-r-- 1 purushottam purushottam    108 Aug 11  2024 forproglife.sh
+-rwxrwxr-x 1 purushottam purushottam     32 Sep 13  2024 greet.sh
+-rw-rw-r-- 1 purushottam purushottam      6 Aug  6  2024 grep.txt
+-rwxr-xr-x 1 purushottam purushottam     78 Aug  8  2024 ifExam.sh
+-rw-rw-r-- 1 purushottam purushottam    183 Aug 16  2024 intro.txt
+-rwxrwxr-x 1 purushottam purushottam     94 Aug 25  2024 namaste.sh
+-rw-rw-r-- 1 purushottam purushottam   7109 Aug 10  2024 nondefaultscript
+drwxrwxr-x 2 purushottam purushottam   4096 Aug  2  2024 Practice
+-rwxr-xr-x 1 purushottam purushottam     29 Aug  2  2024 printcal.sh
+-rwxrw-r-- 1 purushottam purushottam     28 Aug  2  2024 ramram.sh
+-rw-rw-r-- 1 purushottam purushottam     92 Aug  5  2024 tee.txt
+-rw-rw-r-- 1 purushottam purushottam      0 Aug 24  2024 trunc
+-rw-rw-r-- 1 purushottam purushottam      5 Aug  7  2024 truncate.txt
+-rwxr-xr-x 1 purushottam purushottam     79 Aug  8  2024 try.sh
+-rw-rw-r-- 1 purushottam purushottam 112640 Aug  7  2024 try.tar
+-rwxr-xr-x 1 purushottam purushottam    113 Aug 25  2024 tshExample.sh
+-rw-rw-r-- 1 purushottam purushottam  36864 May 18 11:42 typescript
+-rw-rw-r-- 1 purushottam purushottam    853 Aug 16  2024 uniqusort.txt
+-rwxr-xr-x 1 purushottam purushottam    142 Aug 10  2024 utilityCommands.sh
+-rw-rw-r-- 1 purushottam purushottam    203 Aug  9  2024 Voter.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -l uniqusort.txt 
+[?2004l-rw-rw-r-- 1 purushottam purushottam 853 Aug 16  2024 uniqusort.txt
+[?2004hpurushottam@vivobook:~/LinuxTraining$ chmod 130
+[?2004lchmod: missing operand after ‘130’
+Try 'chmod --help' for more information.
+[?2004hpurushottam@vivobook:~/LinuxTraining$ chmod 130 u
+uniqusort.txt       utilityCommands.sh  
+purushottam@vivobook:~/LinuxTraining$ chmod 130 uniqusort.txt 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ chmod 130 uniqusort.txt [Kls -l uniqusort.txt 
+[?2004l---x-wx--- 1 purushottam purushottam 853 Aug 16  2024 uniqusort.txt
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ^C[?2004l[?2004h[?2004l
+[?2004hpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ ln unisort [C n [1P u [1P u n i s o r t _ s k [1P l 
+[?2004lln: failed to access 'unisort': No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ln unisort unisort_sl [C[1P[1@r[1P[1@t[1P[1P[1P[1P[10@qusort.txt[C[C[C[C
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -li[K
+[?2004ltotal 252
+-rwxr-xr-x 1 purushottam purushottam     44 Aug  8  2024 array.sh
+-rw-rw-r-- 1 purushottam purushottam    426 Aug  9  2024 AverageOfN.sh
+-rw-rw-r-- 1 purushottam purushottam    683 Aug  8  2024 awk.txt
+-rwxrwxr-x 1 purushottam purushottam    203 Aug 16  2024 caseProg2.sh
+-rwxrwxr-x 1 purushottam purushottam    567 Aug 16  2024 caseProg.sh
+-rwxr-xr-x 1 purushottam purushottam    235 Aug 16  2024 checkFile.sh
+-rw-rw-r-- 1 purushottam purushottam     55 Aug 25  2024 commitForParalla
+-rw-rw-r-- 1 purushottam purushottam   7804 Nov 24 17:59 crontab.txt
+-rwxr-xr-x 1 purushottam purushottam     98 Aug  2  2024 DigiWatch.sh
+-rwxrw-r-- 1 purushottam purushottam    108 Aug 11  2024 forproglife.sh
+-rwxrwxr-x 1 purushottam purushottam     32 Sep 13  2024 greet.sh
+-rw-rw-r-- 1 purushottam purushottam      6 Aug  6  2024 grep.txt
+-rwxr-xr-x 1 purushottam purushottam     78 Aug  8  2024 ifExam.sh
+-rw-rw-r-- 1 purushottam purushottam    183 Aug 16  2024 intro.txt
+-rwxrwxr-x 1 purushottam purushottam     94 Aug 25  2024 namaste.sh
+-rw-rw-r-- 1 purushottam purushottam   7109 Aug 10  2024 nondefaultscript
+drwxrwxr-x 2 purushottam purushottam   4096 Aug  2  2024 Practice
+-rwxr-xr-x 1 purushottam purushottam     29 Aug  2  2024 printcal.sh
+-rwxrw-r-- 1 purushottam purushottam     28 Aug  2  2024 ramram.sh
+-rw-rw-r-- 1 purushottam purushottam     92 Aug  5  2024 tee.txt
+-rw-rw-r-- 1 purushottam purushottam      0 Aug 24  2024 trunc
+-rw-rw-r-- 1 purushottam purushottam      5 Aug  7  2024 truncate.txt
+-rwxr-xr-x 1 purushottam purushottam     79 Aug  8  2024 try.sh
+-rw-rw-r-- 1 purushottam purushottam 112640 Aug  7  2024 try.tar
+-rwxr-xr-x 1 purushottam purushottam    113 Aug 25  2024 tshExample.sh
+-rw-rw-r-- 1 purushottam purushottam  40960 May 18 11:48 typescript
+---x-wx--- 2 purushottam purushottam    853 Aug 16  2024 uniqusort.txt
+---x-wx--- 2 purushottam purushottam    853 Aug 16  2024 unisort_sl
+-rwxr-xr-x 1 purushottam purushottam    142 Aug 10  2024 utilityCommands.sh
+-rw-rw-r-- 1 purushottam purushottam    203 Aug  9  2024 Voter.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -li
+[?2004ltotal 256
+665631 -rwxr-xr-x 1 purushottam purushottam     44 Aug  8  2024 array.sh
+671896 -rw-rw-r-- 1 purushottam purushottam    426 Aug  9  2024 AverageOfN.sh
+671661 -rw-rw-r-- 1 purushottam purushottam    683 Aug  8  2024 awk.txt
+666249 -rwxrwxr-x 1 purushottam purushottam    203 Aug 16  2024 caseProg2.sh
+659106 -rwxrwxr-x 1 purushottam purushottam    567 Aug 16  2024 caseProg.sh
+662175 -rwxr-xr-x 1 purushottam purushottam    235 Aug 16  2024 checkFile.sh
+670525 -rw-rw-r-- 1 purushottam purushottam     55 Aug 25  2024 commitForParalla
+675242 -rw-rw-r-- 1 purushottam purushottam   7804 Nov 24 17:59 crontab.txt
+661691 -rwxr-xr-x 1 purushottam purushottam     98 Aug  2  2024 DigiWatch.sh
+676553 -rwxrw-r-- 1 purushottam purushottam    108 Aug 11  2024 forproglife.sh
+695399 -rwxrwxr-x 1 purushottam purushottam     32 Sep 13  2024 greet.sh
+667336 -rw-rw-r-- 1 purushottam purushottam      6 Aug  6  2024 grep.txt
+666049 -rwxr-xr-x 1 purushottam purushottam     78 Aug  8  2024 ifExam.sh
+667161 -rw-rw-r-- 1 purushottam purushottam    183 Aug 16  2024 intro.txt
+661044 -rwxrwxr-x 1 purushottam purushottam     94 Aug 25  2024 namaste.sh
+660401 -rw-rw-r-- 1 purushottam purushottam   7109 Aug 10  2024 nondefaultscript
+658038 drwxrwxr-x 2 purushottam purushottam   4096 Aug  2  2024 Practice
+671305 -rwxr-xr-x 1 purushottam purushottam     29 Aug  2  2024 printcal.sh
+671306 -rwxrw-r-- 1 purushottam purushottam     28 Aug  2  2024 ramram.sh
+672569 -rw-rw-r-- 1 purushottam purushottam     92 Aug  5  2024 tee.txt
+674643 -rw-rw-r-- 1 purushottam purushottam      0 Aug 24  2024 trunc
+675168 -rw-rw-r-- 1 purushottam purushottam      5 Aug  7  2024 truncate.txt
+658757 -rwxr-xr-x 1 purushottam purushottam     79 Aug  8  2024 try.sh
+675219 -rw-rw-r-- 1 purushottam purushottam 112640 Aug  7  2024 try.tar
+658439 -rwxr-xr-x 1 purushottam purushottam    113 Aug 25  2024 tshExample.sh
+660473 -rw-rw-r-- 1 purushottam purushottam  40960 May 18 14:22 typescript
+658265 ---x-wx--- 2 purushottam purushottam    853 Aug 16  2024 uniqusort.txt
+658265 ---x-wx--- 2 purushottam purushottam    853 Aug 16  2024 unisort_sl
+673696 -rwxr-xr-x 1 purushottam purushottam    142 Aug 10  2024 utilityCommands.sh
+671898 -rw-rw-r-- 1 purushottam purushottam    203 Aug  9  2024 Voter.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -lit
+[?2004ltotal 260
+660473 -rw-rw-r-- 1 purushottam purushottam  45056 May 18 14:22 typescript
+675242 -rw-rw-r-- 1 purushottam purushottam   7804 Nov 24 17:59 crontab.txt
+695399 -rwxrwxr-x 1 purushottam purushottam     32 Sep 13  2024 greet.sh
+670525 -rw-rw-r-- 1 purushottam purushottam     55 Aug 25  2024 commitForParalla
+661044 -rwxrwxr-x 1 purushottam purushottam     94 Aug 25  2024 namaste.sh
+658439 -rwxr-xr-x 1 purushottam purushottam    113 Aug 25  2024 tshExample.sh
+674643 -rw-rw-r-- 1 purushottam purushottam      0 Aug 24  2024 trunc
+667161 -rw-rw-r-- 1 purushottam purushottam    183 Aug 16  2024 intro.txt
+658265 ---x-wx--- 2 purushottam purushottam    853 Aug 16  2024 uniqusort.txt
+658265 ---x-wx--- 2 purushottam purushottam    853 Aug 16  2024 unisort_sl
+662175 -rwxr-xr-x 1 purushottam purushottam    235 Aug 16  2024 checkFile.sh
+666249 -rwxrwxr-x 1 purushottam purushottam    203 Aug 16  2024 caseProg2.sh
+659106 -rwxrwxr-x 1 purushottam purushottam    567 Aug 16  2024 caseProg.sh
+676553 -rwxrw-r-- 1 purushottam purushottam    108 Aug 11  2024 forproglife.sh
+660401 -rw-rw-r-- 1 purushottam purushottam   7109 Aug 10  2024 nondefaultscript
+673696 -rwxr-xr-x 1 purushottam purushottam    142 Aug 10  2024 utilityCommands.sh
+671896 -rw-rw-r-- 1 purushottam purushottam    426 Aug  9  2024 AverageOfN.sh
+671898 -rw-rw-r-- 1 purushottam purushottam    203 Aug  9  2024 Voter.sh
+671661 -rw-rw-r-- 1 purushottam purushottam    683 Aug  8  2024 awk.txt
+658757 -rwxr-xr-x 1 purushottam purushottam     79 Aug  8  2024 try.sh
+666049 -rwxr-xr-x 1 purushottam purushottam     78 Aug  8  2024 ifExam.sh
+665631 -rwxr-xr-x 1 purushottam purushottam     44 Aug  8  2024 array.sh
+675168 -rw-rw-r-- 1 purushottam purushottam      5 Aug  7  2024 truncate.txt
+675219 -rw-rw-r-- 1 purushottam purushottam 112640 Aug  7  2024 try.tar
+667336 -rw-rw-r-- 1 purushottam purushottam      6 Aug  6  2024 grep.txt
+672569 -rw-rw-r-- 1 purushottam purushottam     92 Aug  5  2024 tee.txt
+658038 drwxrwxr-x 2 purushottam purushottam   4096 Aug  2  2024 Practice
+661691 -rwxr-xr-x 1 purushottam purushottam     98 Aug  2  2024 DigiWatch.sh
+671305 -rwxr-xr-x 1 purushottam purushottam     29 Aug  2  2024 printcal.sh
+671306 -rwxrw-r-- 1 purushottam purushottam     28 Aug  2  2024 ramram.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -lit[K
+[?2004ltotal 268
+665631 -rwxr-xr-x 1 purushottam purushottam     44 Aug  8  2024 array.sh
+671896 -rw-rw-r-- 1 purushottam purushottam    426 Aug  9  2024 AverageOfN.sh
+671661 -rw-rw-r-- 1 purushottam purushottam    683 Aug  8  2024 awk.txt
+666249 -rwxrwxr-x 1 purushottam purushottam    203 Aug 16  2024 caseProg2.sh
+659106 -rwxrwxr-x 1 purushottam purushottam    567 Aug 16  2024 caseProg.sh
+662175 -rwxr-xr-x 1 purushottam purushottam    235 Aug 16  2024 checkFile.sh
+670525 -rw-rw-r-- 1 purushottam purushottam     55 Aug 25  2024 commitForParalla
+675242 -rw-rw-r-- 1 purushottam purushottam   7804 Nov 24 17:59 crontab.txt
+661691 -rwxr-xr-x 1 purushottam purushottam     98 Aug  2  2024 DigiWatch.sh
+676553 -rwxrw-r-- 1 purushottam purushottam    108 Aug 11  2024 forproglife.sh
+695399 -rwxrwxr-x 1 purushottam purushottam     32 Sep 13  2024 greet.sh
+667336 -rw-rw-r-- 1 purushottam purushottam      6 Aug  6  2024 grep.txt
+666049 -rwxr-xr-x 1 purushottam purushottam     78 Aug  8  2024 ifExam.sh
+667161 -rw-rw-r-- 1 purushottam purushottam    183 Aug 16  2024 intro.txt
+661044 -rwxrwxr-x 1 purushottam purushottam     94 Aug 25  2024 namaste.sh
+660401 -rw-rw-r-- 1 purushottam purushottam   7109 Aug 10  2024 nondefaultscript
+658038 drwxrwxr-x 2 purushottam purushottam   4096 Aug  2  2024 Practice
+671305 -rwxr-xr-x 1 purushottam purushottam     29 Aug  2  2024 printcal.sh
+671306 -rwxrw-r-- 1 purushottam purushottam     28 Aug  2  2024 ramram.sh
+672569 -rw-rw-r-- 1 purushottam purushottam     92 Aug  5  2024 tee.txt
+674643 -rw-rw-r-- 1 purushottam purushottam      0 Aug 24  2024 trunc
+675168 -rw-rw-r-- 1 purushottam purushottam      5 Aug  7  2024 truncate.txt
+658757 -rwxr-xr-x 1 purushottam purushottam     79 Aug  8  2024 try.sh
+675219 -rw-rw-r-- 1 purushottam purushottam 112640 Aug  7  2024 try.tar
+658439 -rwxr-xr-x 1 purushottam purushottam    113 Aug 25  2024 tshExample.sh
+660473 -rw-rw-r-- 1 purushottam purushottam  49152 May 18 14:22 typescript
+658265 ---x-wx--- 2 purushottam purushottam    853 Aug 16  2024 uniqusort.txt
+658265 ---x-wx--- 2 purushottam purushottam    853 Aug 16  2024 unisort_sl
+673696 -rwxr-xr-x 1 purushottam purushottam    142 Aug 10  2024 utilityCommands.sh
+671898 -rw-rw-r-- 1 purushottam purushottam    203 Aug  9  2024 Voter.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -li[Kis
+[?2004ltotal 268
+665631   4 -rwxr-xr-x 1 purushottam purushottam     44 Aug  8  2024 array.sh
+671896   4 -rw-rw-r-- 1 purushottam purushottam    426 Aug  9  2024 AverageOfN.sh
+671661   4 -rw-rw-r-- 1 purushottam purushottam    683 Aug  8  2024 awk.txt
+666249   4 -rwxrwxr-x 1 purushottam purushottam    203 Aug 16  2024 caseProg2.sh
+659106   4 -rwxrwxr-x 1 purushottam purushottam    567 Aug 16  2024 caseProg.sh
+662175   4 -rwxr-xr-x 1 purushottam purushottam    235 Aug 16  2024 checkFile.sh
+670525   4 -rw-rw-r-- 1 purushottam purushottam     55 Aug 25  2024 commitForParalla
+675242   8 -rw-rw-r-- 1 purushottam purushottam   7804 Nov 24 17:59 crontab.txt
+661691   4 -rwxr-xr-x 1 purushottam purushottam     98 Aug  2  2024 DigiWatch.sh
+676553   4 -rwxrw-r-- 1 purushottam purushottam    108 Aug 11  2024 forproglife.sh
+695399   4 -rwxrwxr-x 1 purushottam purushottam     32 Sep 13  2024 greet.sh
+667336   4 -rw-rw-r-- 1 purushottam purushottam      6 Aug  6  2024 grep.txt
+666049   4 -rwxr-xr-x 1 purushottam purushottam     78 Aug  8  2024 ifExam.sh
+667161   4 -rw-rw-r-- 1 purushottam purushottam    183 Aug 16  2024 intro.txt
+661044   4 -rwxrwxr-x 1 purushottam purushottam     94 Aug 25  2024 namaste.sh
+660401   8 -rw-rw-r-- 1 purushottam purushottam   7109 Aug 10  2024 nondefaultscript
+658038   4 drwxrwxr-x 2 purushottam purushottam   4096 Aug  2  2024 Practice
+671305   4 -rwxr-xr-x 1 purushottam purushottam     29 Aug  2  2024 printcal.sh
+671306   4 -rwxrw-r-- 1 purushottam purushottam     28 Aug  2  2024 ramram.sh
+672569   4 -rw-rw-r-- 1 purushottam purushottam     92 Aug  5  2024 tee.txt
+674643   0 -rw-rw-r-- 1 purushottam purushottam      0 Aug 24  2024 trunc
+675168   4 -rw-rw-r-- 1 purushottam purushottam      5 Aug  7  2024 truncate.txt
+658757   4 -rwxr-xr-x 1 purushottam purushottam     79 Aug  8  2024 try.sh
+675219 112 -rw-rw-r-- 1 purushottam purushottam 112640 Aug  7  2024 try.tar
+658439   4 -rwxr-xr-x 1 purushottam purushottam    113 Aug 25  2024 tshExample.sh
+660473  40 -rw-rw-r-- 1 purushottam purushottam  49152 May 18 14:22 typescript
+658265   4 ---x-wx--- 2 purushottam purushottam    853 Aug 16  2024 uniqusort.txt
+658265   4 ---x-wx--- 2 purushottam purushottam    853 Aug 16  2024 unisort_sl
+673696   4 -rwxr-xr-x 1 purushottam purushottam    142 Aug 10  2024 utilityCommands.sh
+671898   4 -rw-rw-r-- 1 purushottam purushottam    203 Aug  9  2024 Voter.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -lis[K[K[Ks
+[?2004ltotal 276
+  4 array.sh	     4 commitForParalla    4 ifExam.sh	         4 ramram.sh	   4 tshExample.sh
+  4 AverageOfN.sh    8 crontab.txt	   4 intro.txt	         4 tee.txt	  48 typescript
+  4 awk.txt	     4 DigiWatch.sh	   4 namaste.sh          0 trunc	   4 uniqusort.txt
+  4 caseProg2.sh     4 forproglife.sh	   8 nondefaultscript    4 truncate.txt    4 unisort_sl
+  4 caseProg.sh      4 greet.sh		   4 Practice	         4 try.sh	   4 utilityCommands.sh
+  4 checkFile.sh     4 grep.txt		   4 printcal.sh       112 try.tar	   4 Voter.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ df
+[?2004lFilesystem     1K-blocks     Used Available Use% Mounted on
+tmpfs             600752     2204    598548   1% /run
+/dev/nvme0n1p8  89171872 13938932  70657300  17% /
+tmpfs            3003744        4   3003740   1% /dev/shm
+tmpfs               5120       12      5108   1% /run/lock
+efivarfs             128       42        82  34% /sys/firmware/efi/efivars
+/dev/nvme0n1p7    942764   184996    692540  22% /boot
+/dev/nvme0n1p1    262144    38088    224056  15% /boot/efi
+tmpfs             600748     2548    598200   1% /run/user/1000
+[?2004hpurushottam@vivobook:~/LinuxTraining$ dff[K -h
+[?2004lFilesystem      Size  Used Avail Use% Mounted on
+tmpfs           587M  2.2M  585M   1% /run
+/dev/nvme0n1p8   86G   14G   68G  17% /
+tmpfs           2.9G  4.0K  2.9G   1% /dev/shm
+tmpfs           5.0M   12K  5.0M   1% /run/lock
+efivarfs        128K   42K   82K  34% /sys/firmware/efi/efivars
+/dev/nvme0n1p7  921M  181M  677M  22% /boot
+/dev/nvme0n1p1  256M   38M  219M  15% /boot/efi
+tmpfs           587M  2.5M  585M   1% /run/user/1000
+[?2004hpurushottam@vivobook:~/LinuxTraining$ vi unisort_sl 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;31r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[31;1H"unisort_sl" [Permission Denied][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                  [3;1H~                                                                                                                  [4;1H~                                                                                                                  [5;1H~                                                                                                                  [6;1H~                                                                                                                  [7;1H~                                                                                                                  [8;1H~                                                                                                                  [9;1H~                                                                                                                  [10;1H~                                                                                                                  [11;1H~                                                                                                                  [12;1H~                                                                                                                  [13;1H~                                                                                                                  [14;1H~                                                                                                                  [15;1H~                                                                                                                  [16;1H~                                                                                                                  [17;1H~                                                                                                                  [18;1H~                                                                                                                  [19;1H~                                                                                                                  [20;1H~                                                                                                                  [21;1H~                                                                                                                  [22;1H~                                                                                                                  [23;1H~                                                                                                                  [24;1H~                                                                                                                  [25;1H~                                                                                                                  [26;1H~                                                                                                                  [27;1H~                                                                                                                  [28;1H~                                                                                                                  [29;1H~                                                                                                                  [30;1H~                                                                                                                  [m[31;98H0,0-1[9CAll[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[31;88H:[1;1H[31;89H5[1;1H[31;90Ha[1;1H[31;91H5[1;1H[31;92Ha[1;1H[31;93H/[1;1H[31;94H4[1;1H[31;95Hf[1;1H[31;96H4[1;1H[31;97Hf[1;1H[31;88H          [1;1H[27m[23m[29m[m[H[2J[2;1H[94m~                                                                                                                  [3;1H~                                                                                                                  [4;1H~                                                                                                                  [5;1H~                                                                                                                  [6;1H~                                                                                                                  [7;1H~                                                                                                                  [8;1H~                                                                                                                  [9;1H~                                                                                                                  [10;1H~                                                                                                                  [11;1H~                                                                                                                  [12;1H~                                                                                                                  [13;1H~                                                                                                                  [14;1H~                                                                                                                  [15;1H~                                                                                                                  [16;1H~                                                                                                                  [17;1H~                                                                                                                  [18;1H~                                                                                                                  [19;1H~                                                                                                                  [20;1H~                                                                                                                  [21;1H~                                                                                                                  [22;1H~                                                                                                                  [23;1H~                                                                                                                  [24;1H~                                                                                                                  [25;1H~                                                                                                                  [26;1H~                                                                                                                  [27;1H~                                                                                                                  [28;1H~                                                                                                                  [29;1H~                                                                                                                  [30;1H~                                                                                                                  [m[31;98H0,0-1[9CAll"unisort_sl" [Permission Denied][1;1H[?25h[?25l[31;88H^[[1;1H[31;88H  [1;1H[31;88H^[[1;1H[31;88H  [1;1H[?25h[?25l[31;88H:[1;1H[31;1H[K[31;1H:[?25hwqq[?25l[31;4H[K[31;4H[?25h[?25l[31;3H[K[31;3H[?25h[?25l[31;2H[K[31;2H[?25h [?25l[1;1H[31;98H0,0-1[9CAll[1;1H[?25h[?25l[31;88H^Z[1;1H[31;1H
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m
+[1]+  Stopped                 vi unisort_sl
+[?2004hpurushottam@vivobook:~/LinuxTraining$ rm unisort_sl 
+[?2004lrm: remove write-protected regular file 'unisort_sl'? y
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls
+[?2004larray.sh       checkFile.sh	 greet.sh    nondefaultscript  trunc	      typescript
+AverageOfN.sh  commitForParalla  grep.txt    Practice	       truncate.txt   uniqusort.txt
+awk.txt        crontab.txt	 ifExam.sh   printcal.sh       try.sh	      utilityCommands.sh
+caseProg2.sh   DigiWatch.sh	 intro.txt   ramram.sh	       try.tar	      Voter.sh
+caseProg.sh    forproglife.sh	 namaste.sh  tee.txt	       tshExample.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls uniqusort.txt [K[K[K[K*
+[?2004luniqusort.txt
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls uniqusort.*[K[K[K[K[K[K[K[K*
+[?2004luniqusort.txt
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -d
+[?2004l.
+[?2004hpurushottam@vivobook:~/LinuxTraining$ mkdir e[KtempDir
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ ls
+[?2004larray.sh       checkFile.sh	 greet.sh    nondefaultscript  tempDir	     tshExample.sh
+AverageOfN.sh  commitForParalla  grep.txt    Practice	       trunc	     typescript
+awk.txt        crontab.txt	 ifExam.sh   printcal.sh       truncate.txt  uniqusort.txt
+caseProg2.sh   DigiWatch.sh	 intro.txt   ramram.sh	       try.sh	     utilityCommands.sh
+caseProg.sh    forproglife.sh	 namaste.sh  tee.txt	       try.tar	     Voter.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls-d
+[?2004lCommand 'ls-d' not found, did you mean:
+  command 'lsd' from snap lsd (0.16.0)
+  command 'lshd' from deb lsh-server (2.1-14)
+  command 'lsfd' from deb util-linux-extra (2.39.3-9ubuntu6.1)
+  command 'lsd' from deb lsd (0.23.1-8)
+See 'snap info <snapname>' for additional versions.
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls-d -d
+[?2004l.
+[?2004hpurushottam@vivobook:~/LinuxTraining$ cd te
+tee.txt  tempDir/ 
+purushottam@vivobook:~/LinuxTraining$ cd tempDir/
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining/tempDir$ ls
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining/tempDir$ ls -d
+[?2004l.
+[?2004hpurushottam@vivobook:~/LinuxTraining/tempDir$ ls -h
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining/tempDir$ ls -hlh
+[?2004ltotal 0
+[?2004hpurushottam@vivobook:~/LinuxTraining/tempDir$ cd ..
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ cd ..ls -lh[1Ph
+[?2004larray.sh       checkFile.sh	 greet.sh    nondefaultscript  tempDir	     tshExample.sh
+AverageOfN.sh  commitForParalla  grep.txt    Practice	       trunc	     typescript
+awk.txt        crontab.txt	 ifExam.sh   printcal.sh       truncate.txt  uniqusort.txt
+caseProg2.sh   DigiWatch.sh	 intro.txt   ramram.sh	       try.sh	     utilityCommands.sh
+caseProg.sh    forproglife.sh	 namaste.sh  tee.txt	       try.tar	     Voter.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -hcd ..ls -hlh
+[?2004ltotal 296K
+-rwxr-xr-x 1 purushottam purushottam   44 Aug  8  2024 array.sh
+-rw-rw-r-- 1 purushottam purushottam  426 Aug  9  2024 AverageOfN.sh
+-rw-rw-r-- 1 purushottam purushottam  683 Aug  8  2024 awk.txt
+-rwxrwxr-x 1 purushottam purushottam  203 Aug 16  2024 caseProg2.sh
+-rwxrwxr-x 1 purushottam purushottam  567 Aug 16  2024 caseProg.sh
+-rwxr-xr-x 1 purushottam purushottam  235 Aug 16  2024 checkFile.sh
+-rw-rw-r-- 1 purushottam purushottam   55 Aug 25  2024 commitForParalla
+-rw-rw-r-- 1 purushottam purushottam 7.7K Nov 24 17:59 crontab.txt
+-rwxr-xr-x 1 purushottam purushottam   98 Aug  2  2024 DigiWatch.sh
+-rwxrw-r-- 1 purushottam purushottam  108 Aug 11  2024 forproglife.sh
+-rwxrwxr-x 1 purushottam purushottam   32 Sep 13  2024 greet.sh
+-rw-rw-r-- 1 purushottam purushottam    6 Aug  6  2024 grep.txt
+-rwxr-xr-x 1 purushottam purushottam   78 Aug  8  2024 ifExam.sh
+-rw-rw-r-- 1 purushottam purushottam  183 Aug 16  2024 intro.txt
+-rwxrwxr-x 1 purushottam purushottam   94 Aug 25  2024 namaste.sh
+-rw-rw-r-- 1 purushottam purushottam 7.0K Aug 10  2024 nondefaultscript
+drwxrwxr-x 2 purushottam purushottam 4.0K Aug  2  2024 Practice
+-rwxr-xr-x 1 purushottam purushottam   29 Aug  2  2024 printcal.sh
+-rwxrw-r-- 1 purushottam purushottam   28 Aug  2  2024 ramram.sh
+-rw-rw-r-- 1 purushottam purushottam   92 Aug  5  2024 tee.txt
+drwxrwxr-x 2 purushottam purushottam 4.0K May 18 14:34 tempDir
+-rw-rw-r-- 1 purushottam purushottam    0 Aug 24  2024 trunc
+-rw-rw-r-- 1 purushottam purushottam    5 Aug  7  2024 truncate.txt
+-rwxr-xr-x 1 purushottam purushottam   79 Aug  8  2024 try.sh
+-rw-rw-r-- 1 purushottam purushottam 110K Aug  7  2024 try.tar
+-rwxr-xr-x 1 purushottam purushottam  113 Aug 25  2024 tshExample.sh
+-rw-rw-r-- 1 purushottam purushottam  64K May 18 14:34 typescript
+---x-wx--- 1 purushottam purushottam  853 Aug 16  2024 uniqusort.txt
+-rwxr-xr-x 1 purushottam purushottam  142 Aug 10  2024 utilityCommands.sh
+-rw-rw-r-- 1 purushottam purushottam  203 Aug  9  2024 Voter.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -lh[K
+[?2004ltotal 296
+-rwxr-xr-x 1 purushottam purushottam     44 Aug  8  2024 array.sh
+-rw-rw-r-- 1 purushottam purushottam    426 Aug  9  2024 AverageOfN.sh
+-rw-rw-r-- 1 purushottam purushottam    683 Aug  8  2024 awk.txt
+-rwxrwxr-x 1 purushottam purushottam    203 Aug 16  2024 caseProg2.sh
+-rwxrwxr-x 1 purushottam purushottam    567 Aug 16  2024 caseProg.sh
+-rwxr-xr-x 1 purushottam purushottam    235 Aug 16  2024 checkFile.sh
+-rw-rw-r-- 1 purushottam purushottam     55 Aug 25  2024 commitForParalla
+-rw-rw-r-- 1 purushottam purushottam   7804 Nov 24 17:59 crontab.txt
+-rwxr-xr-x 1 purushottam purushottam     98 Aug  2  2024 DigiWatch.sh
+-rwxrw-r-- 1 purushottam purushottam    108 Aug 11  2024 forproglife.sh
+-rwxrwxr-x 1 purushottam purushottam     32 Sep 13  2024 greet.sh
+-rw-rw-r-- 1 purushottam purushottam      6 Aug  6  2024 grep.txt
+-rwxr-xr-x 1 purushottam purushottam     78 Aug  8  2024 ifExam.sh
+-rw-rw-r-- 1 purushottam purushottam    183 Aug 16  2024 intro.txt
+-rwxrwxr-x 1 purushottam purushottam     94 Aug 25  2024 namaste.sh
+-rw-rw-r-- 1 purushottam purushottam   7109 Aug 10  2024 nondefaultscript
+drwxrwxr-x 2 purushottam purushottam   4096 Aug  2  2024 Practice
+-rwxr-xr-x 1 purushottam purushottam     29 Aug  2  2024 printcal.sh
+-rwxrw-r-- 1 purushottam purushottam     28 Aug  2  2024 ramram.sh
+-rw-rw-r-- 1 purushottam purushottam     92 Aug  5  2024 tee.txt
+drwxrwxr-x 2 purushottam purushottam   4096 May 18 14:34 tempDir
+-rw-rw-r-- 1 purushottam purushottam      0 Aug 24  2024 trunc
+-rw-rw-r-- 1 purushottam purushottam      5 Aug  7  2024 truncate.txt
+-rwxr-xr-x 1 purushottam purushottam     79 Aug  8  2024 try.sh
+-rw-rw-r-- 1 purushottam purushottam 112640 Aug  7  2024 try.tar
+-rwxr-xr-x 1 purushottam purushottam    113 Aug 25  2024 tshExample.sh
+-rw-rw-r-- 1 purushottam purushottam  65536 May 18 14:36 typescript
+---x-wx--- 1 purushottam purushottam    853 Aug 16  2024 uniqusort.txt
+-rwxr-xr-x 1 purushottam purushottam    142 Aug 10  2024 utilityCommands.sh
+-rw-rw-r-- 1 purushottam purushottam    203 Aug  9  2024 Voter.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls *.txt
+[?2004lawk.txt  crontab.txt  grep.txt	intro.txt  tee.txt  truncate.txt  uniqusort.txt
+[?2004hpurushottam@vivobook:~/LinuxTraining$ rm *.txxt[K[Kt[K[K[K[K[K[K[K[Kcat .*.[Ctxt
+[?2004ltotal 36
+-rw-rw-r-- 1 purushottam purushottam    0 Aug  6 18:25 awk.txt
+-rwxr-xr-x 1 purushottam purushottam   98 Aug  2 11:12 DigiWatch.sh
+-rwxr-xr-x 1 purushottam purushottam   32 Aug  2 10:51 greet.sh
+-rw-rw-r-- 1 purushottam purushottam  152 Aug  5 18:14 hello.txt
+-rw-rw-r-- 1 purushottam purushottam  179 Aug  1 09:43 intro.txt
+-rw-rw-r-- 1 purushottam purushottam   72 Aug  2 10:08 namaste.sh
+drwxrwxr-x 2 purushottam purushottam 4096 Aug  2 19:35 Practice
+-rw-rw-r-- 1 purushottam purushottam   29 Aug  2 10:08 printcal.sh
+-rwxrw-rw- 1 purushottam purushottam   28 Aug  2 10:08 ramram.sh
+-rw-rw-r-- 1 purushottam purushottam   92 Aug  5 18:51 tee.txt
+ Mr. Purushottam Gutthe
+
+Hello there, this is current time Saturday 10 August 2024 02:04:01 AM IST
+
+Hello there, this is current time Friday 16 August 2024 02:04:01 AM IST
+
+Hello there, this is current time Wednesday 28 August 2024 02:04:01 AM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:00:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:01:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:02:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:03:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:04:02 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:05:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:06:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:07:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:08:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:09:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:10:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:11:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:12:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:13:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:14:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:15:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:16:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:17:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:18:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:19:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:20:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:21:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:22:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:23:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:24:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:25:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:26:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:27:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:28:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:29:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:30:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:31:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:32:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:33:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:34:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:35:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:36:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:37:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:38:01 PM IST
+
+Hello there, this is current time Tuesday 24 September 2024 05:39:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:00:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:01:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:02:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:03:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:04:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:05:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:06:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:07:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:08:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:09:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:10:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:11:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:12:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:13:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:14:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:15:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:16:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:17:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:18:02 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:19:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:20:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:21:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:22:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:23:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:24:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:25:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:26:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:27:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:28:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:29:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:30:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:31:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:32:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:33:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:34:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:35:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:36:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:37:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:38:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:39:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:40:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:41:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:42:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:43:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:44:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:45:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:46:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:47:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:48:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:49:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:50:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:51:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:52:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:53:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:54:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:55:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:56:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:57:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:58:01 PM IST
+
+Hello there, this is current time Sunday 24 November 2024 05:59:02 PM IST
+hello
+Dedicated folder for the Linux Complete training course which is available at the Udemy. it
+is 36 hrs long course started on the 1st of august and finish by the end of this month
+
+
+n
+DigiWatch.sh
+greet.sh
+hello.txt
+intro.txt
+namaste.sh
+Practice
+printcal.sh
+ramram.sh
+tee.txt
+Hellocat: uniqusort.txt: Permission denied
+[?2004hpurushottam@vivobook:~/LinuxTraining$ cat *.txt | wc -l
+[?2004lcat: uniqusort.txt: Permission denied
+233
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls uniqusort.txt 
+[?2004luniqusort.txt
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -h uniqusort.txt 
+[?2004luniqusort.txt
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -h uniqusort.txt [1P[1@l
+[?2004l---x-wx--- 1 purushottam purushottam 853 Aug 16  2024 uniqusort.txt
+[?2004hpurushottam@vivobook:~/LinuxTraining$ chmd[Kod un[K[K1[K377
+[?2004lchmod: missing operand after ‘377’
+Try 'chmod --help' for more information.
+[?2004hpurushottam@vivobook:~/LinuxTraining$ chmod 377 uniqusort.txt 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ csat [K[K[K[Kat uniqusort.txt 
+[?2004lcat: uniqusort.txt: Permission denied
+[?2004hpurushottam@vivobook:~/LinuxTraining$ vi uniqusort.txt 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;31r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[31;1H"uniqusort.txt" [Permission Denied][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                  [3;1H~                                                                                                                  [4;1H~                                                                                                                  [5;1H~                                                                                                                  [6;1H~                                                                                                                  [7;1H~                                                                                                                  [8;1H~                                                                                                                  [9;1H~                                                                                                                  [10;1H~                                                                                                                  [11;1H~                                                                                                                  [12;1H~                                                                                                                  [13;1H~                                                                                                                  [14;1H~                                                                                                                  [15;1H~                                                                                                                  [16;1H~                                                                                                                  [17;1H~                                                                                                                  [18;1H~                                                                                                                  [19;1H~                                                                                                                  [20;1H~                                                                                                                  [21;1H~                                                                                                                  [22;1H~                                                                                                                  [23;1H~                                                                                                                  [24;1H~                                                                                                                  [25;1H~                                                                                                                  [26;1H~                                                                                                                  [27;1H~                                                                                                                  [28;1H~                                                                                                                  [29;1H~                                                                                                                  [30;1H~                                                                                                                  [m[31;98H0,0-1[9CAll[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[31;88H:[1;1H[31;89H5[1;1H[31;90Ha[1;1H[31;91H5[1;1H[31;92Ha[1;1H[31;93H/[1;1H[31;94H4[1;1H[31;95Hf[1;1H[31;96H4[1;1H[31;97Hf[1;1H[31;88H          [1;1H[27m[23m[29m[m[H[2J[2;1H[94m~                                                                                                                  [3;1H~                                                                                                                  [4;1H~                                                                                                                  [5;1H~                                                                                                                  [6;1H~                                                                                                                  [7;1H~                                                                                                                  [8;1H~                                                                                                                  [9;1H~                                                                                                                  [10;1H~                                                                                                                  [11;1H~                                                                                                                  [12;1H~                                                                                                                  [13;1H~                                                                                                                  [14;1H~                                                                                                                  [15;1H~                                                                                                                  [16;1H~                                                                                                                  [17;1H~                                                                                                                  [18;1H~                                                                                                                  [19;1H~                                                                                                                  [20;1H~                                                                                                                  [21;1H~                                                                                                                  [22;1H~                                                                                                                  [23;1H~                                                                                                                  [24;1H~                                                                                                                  [25;1H~                                                                                                                  [26;1H~                                                                                                                  [27;1H~                                                                                                                  [28;1H~                                                                                                                  [29;1H~                                                                                                                  [30;1H~                                                                                                                  [m[31;98H0,0-1[9CAll"uniqusort.txt" [Permission Denied][1;1H[?25h[?25l[31;88H^[[1;1H[31;88H  [1;1H[31;88H^[[1;1H[31;88H  [1;1H[?25h[?25l[31;88H:[1;1H[31;1H[K[31;1H:[?25hwq[?25l[97m[41mE45: 'readonly' option is set (add ! to override)[1;1H[m[31;98H0,0-1[9CAll[1;1H[?25h[?25l[31;88H^[[1;1H[31;88H  [1;1H[31;88H^[[1;1H[31;88H  [1;1H[?25h[?25l[31;88H^[[1;1H[31;88H  [1;1H[31;88H^[[1;1H[31;88H  [1;1H[?25h[?25l[31;88H![1;1H[?25h[?25l[31;89Hq[1;1H[31;88H  [1;1H[?25h[?25l[31;88H^M[1;1H[31;88H  [1;1H[?25h[?25l[31;88H^[[1;1H[31;88H  [1;1H[31;88H^[[1;1H[31;88H  [1;1H[?25h[?25l[31;88H^[[1;1H[31;88H  [1;1H[31;88H^[[1;1H[31;88H  [1;1H[?25h[?25l[31;88H:[1;1H[31;1H[K[31;1H:[?25hq[?25l[?2004l[>4;m[23;2t[23;1t[31;1H[K[31;1H[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004hpurushottam@vivobook:~/LinuxTraining$ vi man
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;31r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[31;1H"man" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                  [3;1H~                                                                                                                  [4;1H~                                                                                                                  [5;1H~                                                                                                                  [6;1H~                                                                                                                  [7;1H~                                                                                                                  [8;1H~                                                                                                                  [9;1H~                                                                                                                  [10;1H~                                                                                                                  [11;1H~                                                                                                                  [12;1H~                                                                                                                  [13;1H~                                                                                                                  [14;1H~                                                                                                                  [15;1H~                                                                                                                  [16;1H~                                                                                                                  [17;1H~                                                                                                                  [18;1H~                                                                                                                  [19;1H~                                                                                                                  [20;1H~                                                                                                                  [21;1H~                                                                                                                  [22;1H~                                                                                                                  [23;1H~                                                                                                                  [24;1H~                                                                                                                  [25;1H~                                                                                                                  [26;1H~                                                                                                                  [27;1H~                                                                                                                  [28;1H~                                                                                                                  [29;1H~                                                                                                                  [30;1H~                                                                                                                  [m[31;98H0,0-1[9CAll[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                                                                  [3;1H~                                                                                                                  [4;1H~                                                                                                                  [5;1H~                                                                                                                  [6;1H~                                                                                                                  [7;1H~                                                                                                                  [8;1H~                                                                                                                  [9;1H~                                                                                                                  [10;1H~                                                                                                                  [11;1H~                                                                                                                  [12;1H~                                                                                                                  [13;1H~                                                                                                                  [14;1H~                                                                                                                  [15;1H~                                                                                                                  [16;1H~                                                                                                                  [17;1H~                                                                                                                  [18;1H~                                                                                                                  [19;1H~                                                                                                                  [20;1H~                                                                                                                  [21;1H~                                                                                                                  [22;1H~                                                                                                                  [23;1H~                                                                                                                  [24;1H~                                                                                                                  [25;1H~                                                                                                                  [26;1H~                                                                                                                  [27;1H~                                                                                                                  [28;1H~                                                                                                                  [29;1H~                                                                                                                  [30;1H~                                                                                                                  [m[31;98H0,0-1[9CAll"man" [New][1;1H[?25h[?25l[31;88H^[[1;1H[31;88H  [1;1H[31;88H^[[1;1H[31;88H  [1;1H[?25h[?25l[31;88H^[[1;1H[31;88H  [1;1H[31;88H^[[1;1H[31;88H  [1;1H[?25h[?25l[31;88H![1;1H[?25h[?25l[31;89H^[[1;1H[31;89H  [1;1H[31;89H^[[1;1H[31;88H   [1;1H[?25h[?25l[31;88H:[1;1H[31;1H[K[31;1H:[?25h!q[?25l:!q[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m
+/bin/bash: line 1: q: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[?25l[1;1H[27m[23m[29m[m[H[2J[2;1H[94m~                                                                                                                  [3;1H~                                                                                                                  [4;1H~                                                                                                                  [5;1H~                                                                                                                  [6;1H~                                                                                                                  [7;1H~                                                                                                                  [8;1H~                                                                                                                  [9;1H~                                                                                                                  [10;1H~                                                                                                                  [11;1H~                                                                                                                  [12;1H~                                                                                                                  [13;1H~                                                                                                                  [14;1H~                                                                                                                  [15;1H~                                                                                                                  [16;1H~                                                                                                                  [17;1H~                                                                                                                  [18;1H~                                                                                                                  [19;1H~                                                                                                                  [20;1H~                                                                                                                  [21;1H~                                                                                                                  [22;1H~                                                                                                                  [23;1H~                                                                                                                  [24;1H~                                                                                                                  [25;1H~                                                                                                                  [26;1H~                                                                                                                  [27;1H~                                                                                                                  [28;1H~                                                                                                                  [29;1H~                                                                                                                  [30;1H~                                                                                                                  [m[31;98H0,0-1[9CAll[1;1H[?25h[?25l[31;88Hl[1;1H[31;88H [1;1H[?25h[?4m[?25l[31;88Hs[1;1H[31;88H [1;1H[31;88Hcl[1;1H[31;88H  [1;1H[31;1H[1m-- INSERT --[m[31;98H[K[31;98H0,1[11CAll[1;1H[?25h[?25l[2;1H[K[31;98H2[2;1H[?25h[?25l[94m~                                                                                                                  [m[31;98H1[1;1H[?25h[31;1H[K[1;1H[?25l[31;88H^[[1;1H[31;88H  [1;1H[31;98H1,0-1[9CAll[1;1H[?25h[?25l[31;88H:[1;1H[31;88H[K[31;1H:[?25h!q[?25l:!q[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m
+[No write since last change]
+/bin/bash: line 1: q: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[?25l[1;1H[27m[23m[29m[m[H[2J[2;1H[94m~                                                                                                                  [3;1H~                                                                                                                  [4;1H~                                                                                                                  [5;1H~                                                                                                                  [6;1H~                                                                                                                  [7;1H~                                                                                                                  [8;1H~                                                                                                                  [9;1H~                                                                                                                  [10;1H~                                                                                                                  [11;1H~                                                                                                                  [12;1H~                                                                                                                  [13;1H~                                                                                                                  [14;1H~                                                                                                                  [15;1H~                                                                                                                  [16;1H~                                                                                                                  [17;1H~                                                                                                                  [18;1H~                                                                                                                  [19;1H~                                                                                                                  [20;1H~                                                                                                                  [21;1H~                                                                                                                  [22;1H~                                                                                                                  [23;1H~                                                                                                                  [24;1H~                                                                                                                  [25;1H~                                                                                                                  [26;1H~                                                                                                                  [27;1H~                                                                                                                  [28;1H~                                                                                                                  [29;1H~                                                                                                                  [30;1H~                                                                                                                  [m[31;98H1,0-1[9CAll[1;1H[?25h[?25l[31;88H^Z[1;1H[31;1H
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m^[[I
+[2]+  Stopped                 vi man
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls man*
+[?2004lls: cannot access 'man*': No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls man*-man*lman* man*
+[?2004lls: cannot access 'man*': No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls uniqusort.txt 
+[?2004luniqusort.txt
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls uniqusort.txt [C[1@ [1@-[1@l[1P[1@h[1@l
+[?2004l--wxrwxrwx 1 purushottam purushottam 853 Aug 16  2024 uniqusort.txt
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -hl uniqusort.txt [4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P-l man*[3Pman*[1Pvi manuniqusort.txt man[Kls man*-l man*uniqusort.txt [4@-hl [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kch
+chacl                   chcon                   chmem                   chrt
+chage                   chcpu                   chmod                   chsh
+chardet                 check-language-support  choom                   chvt
+chardetect              chfn                    chown                   
+chat                    chgpasswd               chpasswd                
+chattr                  chgrp                   chroot                  
+purushottam@vivobook:~/LinuxTraining$ chmod 755 uniqusort.txt 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ lschmod 755 uniqusort.txt [3Pls -hl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l-rwxr-xr-x 1 purushottam purushottam 853 Aug 16  2024 uniqusort.txt
+[?2004hpurushottam@vivobook:~/LinuxTraining$ rm tempDir/
+[?2004lrm: cannot remove 'tempDir/': Is a directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ rm tempDir/-tempDir/ftempDir/ tempDir/
+[?2004lrm: cannot remove 'tempDir/': Is a directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ rm -f tempDir/[C[1@d[1@i[1@r
+[?2004lrmdir: invalid option -- 'f'
+Try 'rmdir --help' for more information.
+[?2004hpurushottam@vivobook:~/LinuxTraining$ rmdir -f tempDir/[1Pir/[1P tempir/[1P tempir/
+[?2004lrmdir: failed to remove 'tempir/': No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ rmdir  tempir/[K
+[?2004lrmdir: failed to remove 'tempir': No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls te`[Km*
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ ls
+[?2004larray.sh       checkFile.sh	 greet.sh    nondefaultscript  tempDir	     tshExample.sh
+AverageOfN.sh  commitForParalla  grep.txt    Practice	       trunc	     typescript
+awk.txt        crontab.txt	 ifExam.sh   printcal.sh       truncate.txt  uniqusort.txt
+caseProg2.sh   DigiWatch.sh	 intro.txt   ramram.sh	       try.sh	     utilityCommands.sh
+caseProg.sh    forproglife.sh	 namaste.sh  tee.txt	       try.tar	     Voter.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -l nondefaultscript 
+[?2004l-rw-rw-r-- 1 purushottam purushottam 7109 Aug 10  2024 nondefaultscript
+[?2004hpurushottam@vivobook:~/LinuxTraining$ cat nondefaultscript 
+[?2004lScript started on 2024-08-10 11:39:21+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="114" LINES="26"]
+[?2004hpurushottam@vbook:~/LinuxTraining$ ram[K[K[Kls *.sh
+[?2004larray.sh       DigiWatch.sh  ifExam.sh	 printcal.sh  utilityCommands.sh
+AverageOfN.sh  greet.sh      namaste.sh  ramram.sh    Voter.sh
+[?2004hpurushottam@vbook:~/LinuxTraining$ ./greet.sh 
+[?2004lHello World
+[?2004hpurushottam@vbook:~/LinuxTraining$ ./pt[KrintcC[KA[Kal.sh
+[?2004lbash: ./printcal.sh: Permission denied
+[?2004hpurushottam@vbook:~/LinuxTraining$ chmod 755 printcal.sh 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ chmod 755 printcal.sh [9P./printcal.sh
+[?2004lHi there
+[?2004hpurushottam@vbook:~/LinuxTraining$ cat nondefaultscript 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ cat typescript 
+[?2004lScript started on 2024-08-10 11:37:37+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="26"]
+[?2004hpurushottam@vbook:~/LinuxTraining$ ls typescript 
+[?2004ltypescript
+[?2004hpurushottam@vbook:~/LinuxTraining$ ls typescript [C[C[C[1@ [1@-[1@l[1@t[1@r[C[1@ 
+[?2004l-rw-rw-r-- 1 purushottam purushottam 0 Aug 10 11:37 typescript
+[?2004hpurushottam@vbook:~/LinuxTraining$ cat typescript 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ vi c[Ktypescript 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"typescript" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                 [3;1H~                                                                                                                 [4;1H~                                                                                                                 [5;1H~                                                                                                                 [6;1H~                                                                                                                 [7;1H~                                                                                                                 [8;1H~                                                                                                                 [9;1H~                                                                                                                 [10;1H~                                                                                                                 [11;1H~                                                                                                                 [12;1H~                                                                                                                 [13;1H~                                                                                                                 [14;1H~                                                                                                                 [15;1H~                                                                                                                 [16;1H~                                                                                                                 [17;1H~                                                                                                                 [18;1H~                                                                                                                 [19;1H~                                                                                                                 [20;1H~                                                                                                                 [21;1H~                                                                                                                 [22;1H~                                                                                                                 [23;1H~                                                                                                                 [24;1H~                                                                                                                 [25;1H~                                                                                                                 [m[26;97H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[26;87H:[1;1H[26;88He[1;1H[26;89H0[1;1H[26;90He[1;1H[26;91H0[1;1H[26;92H/[1;1H[26;93Hd[1;1H[26;94H7[1;1H[26;95Hd[1;1H[26;96H7[1;1H[26;87H          [1;1H[?25h[?25l[26;87H^[[1;1H[26;87H  [1;1H[26;87H^[[1;1H[26;87H  [1;1H[?25h[?25l[26;87Hgq[1;1H[?25h[?25l[26;8[?2004hpurushottam@vbook:~/LinuxTraining$ 2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[K1$r0 q^[\^[[?12;4$y^[:wq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C!2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lbash: !2: event not found
+[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ ce[Kleat
+[?2004lCommand 'cleat' not found, did you mean:
+  command 'claat' from snap claat (v0.7.1)
+  command 'cheat' from snap cheat (4.4.0.build.2)
+  command 'clear' from deb ncurses-bin (6.3-2ubuntu0.1)
+See 'snap info <snapname>' for additional versions.
+[?2004hpurushottam@vbook:~/LinuxTraining$ exit
+[?2004lexit
+
+Script done on 2024-08-10 11:44:23+05:30 [COMMAND_EXIT_CODE="127"]
+[?2004hpurushottam@vivobook:~/LinuxTraining$ 2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[K1$r0 q^[\^[[?12;4$y^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OA^[OA^[OA ^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[O A^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[ OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA ^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[O A^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[ OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[:!q[K[K^[:[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22P2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l2RR61: command not found
+
+7600: command not found
+
+1c10: command not found
+bash: rgb:5050/f0f0/2e2e11: No such file or directory
+bash: rgb:5a5a/4f4f/3434: No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Pcat nondefaultscript [2@ls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lScript started on 2024-08-10 11:39:21+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="114" LINES="26"]
+[?2004hpurushottam@vbook:~/LinuxTraining$ ram[K[K[Kls *.sh
+[?2004larray.sh       DigiWatch.sh  ifExam.sh	 printcal.sh  utilityCommands.sh
+AverageOfN.sh  greet.sh      namaste.sh  ramram.sh    Voter.sh
+[?2004hpurushottam@vbook:~/LinuxTraining$ ./greet.sh 
+[?2004lHello World
+[?2004hpurushottam@vbook:~/LinuxTraining$ ./pt[KrintcC[KA[Kal.sh
+[?2004lbash: ./printcal.sh: Permission denied
+[?2004hpurushottam@vbook:~/LinuxTraining$ chmod 755 printcal.sh 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ chmod 755 printcal.sh [9P./printcal.sh
+[?2004lHi there
+[?2004hpurushottam@vbook:~/LinuxTraining$ cat nondefaultscript 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ cat typescript 
+[?2004lScript started on 2024-08-10 11:37:37+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="26"]
+[?2004hpurushottam@vbook:~/LinuxTraining$ ls typescript 
+[?2004ltypescript
+[?2004hpurushottam@vbook:~/LinuxTraining$ ls typescript [C[C[C[1@ [1@-[1@l[1@t[1@r[C[1@ 
+[?2004l-rw-rw-r-- 1 purushottam purushottam 0 Aug 10 11:37 typescript
+[?2004hpurushottam@vbook:~/LinuxTraining$ cat typescript 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ vi c[Ktypescript 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"typescript" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                 [3;1H~                                                                                                                 [4;1H~                                                                                                                 [5;1H~                                                                                                                 [6;1H~                                                                                                                 [7;1H~                                                                                                                 [8;1H~                                                                                                                 [9;1H~                                                                                                                 [10;1H~                                                                                                                 [11;1H~                                                                                                                 [12;1H~                                                                                                                 [13;1H~                                                                                                                 [14;1H~                                                                                                                 [15;1H~                                                                                                                 [16;1H~                                                                                                                 [17;1H~                                                                                                                 [18;1H~                                                                                                                 [19;1H~                                                                                                                 [20;1H~                                                                                                                 [21;1H~                                                                                                                 [22;1H~                                                                                                                 [23;1H~                                                                                                                 [24;1H~                                                                                                                 [25;1H~                                                                                                                 [m[26;97H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[26;87H:[1;1H[26;88He[1;1H[26;89H0[1;1H[26;90He[1;1H[26;91H0[1;1H[26;92H/[1;1H[26;93Hd[1;1H[26;94H7[1;1H[26;95Hd[1;1H[26;96H7[1;1H[26;87H          [1;1H[?25h[?25l[26;87H^[[1;1H[26;87H  [1;1H[26;87H^[[1;1H[26;87H  [1;1H[?25h[?25l[26;87Hgq[1;1H[?25h[?25l[26;8[?2004hpurushottam@vbook:~/LinuxTraining$ 2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[K1$r0 q^[\^[[?12;4$y^[:wq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C!2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lbash: !2: event not found
+[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ ce[Kleat
+[?2004lCommand 'cleat' not found, did you mean:
+  command 'claat' from snap claat (v0.7.1)
+  command 'cheat' from snap cheat (4.4.0.build.2)
+  command 'clear' from deb ncurses-bin (6.3-2ubuntu0.1)
+See 'snap info <snapname>' for additional versions.
+[?2004hpurushottam@vbook:~/LinuxTraining$ exit
+[?2004lexit
+
+Script done on 2024-08-10 11:44:23+05:30 [COMMAND_EXIT_CODE="127"]
+[?2004hpurushottam@vivobook:~/LinuxTraining$ 2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[K1$r0 q^[\^[[?12;4$y2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l2RR61: command not found
+
+7600: command not found
+1c10: command not found
+bash: rgb:5050/f0f0/2e2e11: No such file or directory
+bash: rgb:5a5a/4f4f/3434: No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Pcat nondefaultscript 2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Pcat nondefaultscript clear
+[?2004lScript started on 2024-08-10 11:39:21+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="114" LINES="26"]
+[?2004hpurushottam@vbook:~/LinuxTraining$ ram[K[K[Kls *.sh
+[?2004larray.sh       DigiWatch.sh  ifExam.sh	 printcal.sh  utilityCommands.sh
+AverageOfN.sh  greet.sh      namaste.sh  ramram.sh    Voter.sh
+[?2004hpurushottam@vbook:~/LinuxTraining$ ./greet.sh 
+[?2004lHello World
+[?2004hpurushottam@vbook:~/LinuxTraining$ ./pt[KrintcC[KA[Kal.sh
+[?2004lbash: ./printcal.sh: Permission denied
+[?2004hpurushottam@vbook:~/LinuxTraining$ chmod 755 printcal.sh 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ chmod 755 printcal.sh [9P./printcal.sh
+[?2004lHi there
+[?2004hpurushottam@vbook:~/LinuxTraining$ cat nondefaultscript 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ cat typescript 
+[?2004lScript started on 2024-08-10 11:37:37+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="26"]
+[?2004hpurushottam@vbook:~/LinuxTraining$ ls typescript 
+[?2004ltypescript
+[?2004hpurushottam@vbook:~/LinuxTraining$ ls typescript [C[C[C[1@ [1@-[1@l[1@t[1@r[C[1@ 
+[?2004l-rw-rw-r-- 1 purushottam purushottam 0 Aug 10 11:37 typescript
+[?2004hpurushottam@vbook:~/LinuxTraining$ cat typescript 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ vi c[Ktypescript 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"typescript" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                 [3;1H~                                                                                                                 [4;1H~                                                                                                                 [5;1H~                                                                                                                 [6;1H~                                                                                                                 [7;1H~                                                                                                                 [8;1H~                                                                                                                 [9;1H~                                                                                                                 [10;1H~                                                                                                                 [11;1H~                                                                                                                 [12;1H~                                                                                                                 [13;1H~                                                                                                                 [14;1H~                                                                                                                 [15;1H~                                                                                                                 [16;1H~                                                                                                                 [17;1H~                                                                                                                 [18;1H~                                                                                                                 [19;1H~                                                                                                                 [20;1H~                                                                                                                 [21;1H~                                                                                                                 [22;1H~                                                                                                                 [23;1H~                                                                                                                 [24;1H~                                                                                                                 [25;1H~                                                                                                                 [m[26;97H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[26;87H:[1;1H[26;88He[1;1H[26;89H0[1;1H[26;90He[1;1H[26;91H0[1;1H[26;92H/[1;1H[26;93Hd[1;1H[26;94H7[1;1H[26;95Hd[1;1H[26;96H7[1;1H[26;87H          [1;1H[?25h[?25l[26;87H^[[1;1H[26;87H  [1;1H[26;87H^[[1;1H[26;87H  [1;1H[?25h[?25l[26;87Hgq[1;1H[?25h[?25l[26;8[?2004hpurushottam@vbook:~/LinuxTraining$ 2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[K1$r0 q^[\^[[?12;4$y^[:wq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C!2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lbash: !2: event not found
+[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ ce[Kleat
+[?2004lCommand 'cleat' not found, did you mean:
+  command 'claat' from snap claat (v0.7.1)
+  command 'cheat' from snap cheat (4.4.0.build.2)
+  command 'clear' from deb ncurses-bin (6.3-2ubuntu0.1)
+See 'snap info <snapname>' for additional versions.
+[?2004hpurushottam@vbook:~/LinuxTraining$ exit
+[?2004lexit
+
+Script done on 2024-08-10 11:44:23+05:30 [COMMAND_EXIT_CODE="127"]
+cat: clear: No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ 2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[K1$r0 q^[\^[[?12;4$yc;ear2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C12RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l1wq2RR61: command not found
+7600: command not found
+1c10: command not found
+bash: rgb:5050/f0f0/2e2e11: No such file or directory
+bash: rgb:5a5a/4f4f/3434: No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ clear
+[?2004l[H[2J[3J[?2004hpurushottam@vivobook:~/LinuxTraining$ clear1wq2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Pcat nondefaultscript clear2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Pcat nondefaultscript [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krm npn[K[Kondefaultscript 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ rm nondefaultscript clear[Krm nondefaultscript [Kcat nons[Kdw[Kefail[K[Ki[Kuly[Kt[Ktscript
+[?2004lcat: nondefaultscript: No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ cat nondefaultscript[K[Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$  d[K[Kfind [K[K[K[K[Kfind . -iname"" ""[C[Kpurushottam@vivobook:~/LinuxTraining$ find . -iname ""[Kpurushottam@vivobook:~/LinuxTraining$ find . -iname ""d""f""[1P""[1P""[Cn"o"t"e"[1P"[1P"[1P"[1P"a"*"
+[?2004l./.git/hooks/applypatch-msg.sample
+./.git/objects/9e/a9bed508190a9a23d6d0f2df69a60183d8d502
+./.git/objects/7b/a97fd78d005f366a810a932bcacfa52b272c77
+./.git/objects/a1
+./.git/objects/a2
+./.git/objects/a2/a7320c8352d6d4deb8ec3dc201b146e998a353
+./.git/objects/a9
+./.git/objects/ab
+./.git/objects/ab/a1224fce54f166c571d5f6fe7d3691eea62f46
+./.git/objects/a7
+./.git/objects/61/a5445324c539ccc5390f5bdd0ca61c83cfbec7
+./.git/objects/ae
+./.git/objects/26/a584151d5faa90bfa0a683fa48c62b94bee94f
+./.git/objects/93/a083c89a378e75ef6f3924166a575be7a146be
+./AverageOfN.sh
+./awk.txt
+./array.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ find . -iname "a*"[1P
+Script done on 2025-05-18 19:48:53+05:30 [COMMAND_EXIT_CODE="0"]
+urushottam@vivobook:~/LinuxTraining$ lschmod 755 uniqusort.txt [3Pls -hl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l-rwxr-xr-x 1 purushottam purushottam 853 Aug 16  2024 uniqusort.txt
+[?2004hpurushottam@vivobook:~/LinuxTraining$ rm tempDir/
+[?2004lrm: cannot remove 'tempDir/': Is a directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ rm tempDir/-tempDir/ftempDir/ tempDir/
+[?2004lrm: cannot remove 'tempDir/': Is a directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ rm -f tempDir/[C[1@d[1@i[1@r
+[?2004lrmdir: invalid option -- 'f'
+Try 'rmdir --help' for more information.
+[?2004hpurushottam@vivobook:~/LinuxTraining$ rmdir -f tempDir/[1Pir/[1P tempir/[1P tempir/
+[?2004lrmdir: failed to remove 'tempir/': No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ rmdir  tempir/[K
+[?2004lrmdir: failed to remove 'tempir': No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls te`[Km*
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ ls
+[?2004larray.sh       checkFile.sh	 greet.sh    nondefaultscript  tempDir	     tshExample.sh
+AverageOfN.sh  commitForParalla  grep.txt    Practice	       trunc	     typescript
+awk.txt        crontab.txt	 ifExam.sh   printcal.sh       truncate.txt  uniqusort.txt
+caseProg2.sh   DigiWatch.sh	 intro.txt   ramram.sh	       try.sh	     utilityCommands.sh
+caseProg.sh    forproglife.sh	 namaste.sh  tee.txt	       try.tar	     Voter.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ ls -l nondefaultscript 
+[?2004l-rw-rw-r-- 1 purushottam purushottam 7109 Aug 10  2024 nondefaultscript
+[?2004hpurushottam@vivobook:~/LinuxTraining$ cat nondefaultscript 
+[?2004lScript started on 2024-08-10 11:39:21+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="114" LINES="26"]
+[?2004hpurushottam@vbook:~/LinuxTraining$ ram[K[K[Kls *.sh
+[?2004larray.sh       DigiWatch.sh  ifExam.sh	 printcal.sh  utilityCommands.sh
+AverageOfN.sh  greet.sh      namaste.sh  ramram.sh    Voter.sh
+[?2004hpurushottam@vbook:~/LinuxTraining$ ./greet.sh 
+[?2004lHello World
+[?2004hpurushottam@vbook:~/LinuxTraining$ ./pt[KrintcC[KA[Kal.sh
+[?2004lbash: ./printcal.sh: Permission denied
+[?2004hpurushottam@vbook:~/LinuxTraining$ chmod 755 printcal.sh 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ chmod 755 printcal.sh [9P./printcal.sh
+[?2004lHi there
+[?2004hpurushottam@vbook:~/LinuxTraining$ cat nondefaultscript 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ cat typescript 
+[?2004lScript started on 2024-08-10 11:37:37+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="26"]
+[?2004hpurushottam@vbook:~/LinuxTraining$ ls typescript 
+[?2004ltypescript
+[?2004hpurushottam@vbook:~/LinuxTraining$ ls typescript [C[C[C[1@ [1@-[1@l[1@t[1@r[C[1@ 
+[?2004l-rw-rw-r-- 1 purushottam purushottam 0 Aug 10 11:37 typescript
+[?2004hpurushottam@vbook:~/LinuxTraining$ cat typescript 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ vi c[Ktypescript 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"typescript" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                 [3;1H~                                                                                                                 [4;1H~                                                                                                                 [5;1H~                                                                                                                 [6;1H~                                                                                                                 [7;1H~                                                                                                                 [8;1H~                                                                                                                 [9;1H~                                                                                                                 [10;1H~                                                                                                                 [11;1H~                                                                                                                 [12;1H~                                                                                                                 [13;1H~                                                                                                                 [14;1H~                                                                                                                 [15;1H~                                                                                                                 [16;1H~                                                                                                                 [17;1H~                                                                                                                 [18;1H~                                                                                                                 [19;1H~                                                                                                                 [20;1H~                                                                                                                 [21;1H~                                                                                                                 [22;1H~                                                                                                                 [23;1H~                                                                                                                 [24;1H~                                                                                                                 [25;1H~                                                                                                                 [m[26;97H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[26;87H:[1;1H[26;88He[1;1H[26;89H0[1;1H[26;90He[1;1H[26;91H0[1;1H[26;92H/[1;1H[26;93Hd[1;1H[26;94H7[1;1H[26;95Hd[1;1H[26;96H7[1;1H[26;87H          [1;1H[?25h[?25l[26;87H^[[1;1H[26;87H  [1;1H[26;87H^[[1;1H[26;87H  [1;1H[?25h[?25l[26;87Hgq[1;1H[?25h[?25l[26;8[?2004hpurushottam@vbook:~/LinuxTraining$ 2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[K1$r0 q^[\^[[?12;4$y^[:wq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C!2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lbash: !2: event not found
+[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ ce[Kleat
+[?2004lCommand 'cleat' not found, did you mean:
+  command 'claat' from snap claat (v0.7.1)
+  command 'cheat' from snap cheat (4.4.0.build.2)
+  command 'clear' from deb ncurses-bin (6.3-2ubuntu0.1)
+See 'snap info <snapname>' for additional versions.
+[?2004hpurushottam@vbook:~/LinuxTraining$ exit
+[?2004lexit
+
+Script done on 2024-08-10 11:44:23+05:30 [COMMAND_EXIT_CODE="127"]
+[?2004hpurushottam@vivobook:~/LinuxTraining$ 2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[K1$r0 q^[\^[[?12;4$y^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OB^[OA^[OA^[OA ^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[O A^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[ OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA ^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[O A^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[ OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[OA^[:!q[K[K^[:[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22P2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l2RR61: command not found
+
+7600: command not found
+
+1c10: command not found
+bash: rgb:5050/f0f0/2e2e11: No such file or directory
+bash: rgb:5a5a/4f4f/3434: No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Pcat nondefaultscript [2@ls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lScript started on 2024-08-10 11:39:21+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="114" LINES="26"]
+[?2004hpurushottam@vbook:~/LinuxTraining$ ram[K[K[Kls *.sh
+[?2004larray.sh       DigiWatch.sh  ifExam.sh	 printcal.sh  utilityCommands.sh
+AverageOfN.sh  greet.sh      namaste.sh  ramram.sh    Voter.sh
+[?2004hpurushottam@vbook:~/LinuxTraining$ ./greet.sh 
+[?2004lHello World
+[?2004hpurushottam@vbook:~/LinuxTraining$ ./pt[KrintcC[KA[Kal.sh
+[?2004lbash: ./printcal.sh: Permission denied
+[?2004hpurushottam@vbook:~/LinuxTraining$ chmod 755 printcal.sh 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ chmod 755 printcal.sh [9P./printcal.sh
+[?2004lHi there
+[?2004hpurushottam@vbook:~/LinuxTraining$ cat nondefaultscript 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ cat typescript 
+[?2004lScript started on 2024-08-10 11:37:37+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="26"]
+[?2004hpurushottam@vbook:~/LinuxTraining$ ls typescript 
+[?2004ltypescript
+[?2004hpurushottam@vbook:~/LinuxTraining$ ls typescript [C[C[C[1@ [1@-[1@l[1@t[1@r[C[1@ 
+[?2004l-rw-rw-r-- 1 purushottam purushottam 0 Aug 10 11:37 typescript
+[?2004hpurushottam@vbook:~/LinuxTraining$ cat typescript 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ vi c[Ktypescript 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"typescript" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                 [3;1H~                                                                                                                 [4;1H~                                                                                                                 [5;1H~                                                                                                                 [6;1H~                                                                                                                 [7;1H~                                                                                                                 [8;1H~                                                                                                                 [9;1H~                                                                                                                 [10;1H~                                                                                                                 [11;1H~                                                                                                                 [12;1H~                                                                                                                 [13;1H~                                                                                                                 [14;1H~                                                                                                                 [15;1H~                                                                                                                 [16;1H~                                                                                                                 [17;1H~                                                                                                                 [18;1H~                                                                                                                 [19;1H~                                                                                                                 [20;1H~                                                                                                                 [21;1H~                                                                                                                 [22;1H~                                                                                                                 [23;1H~                                                                                                                 [24;1H~                                                                                                                 [25;1H~                                                                                                                 [m[26;97H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[26;87H:[1;1H[26;88He[1;1H[26;89H0[1;1H[26;90He[1;1H[26;91H0[1;1H[26;92H/[1;1H[26;93Hd[1;1H[26;94H7[1;1H[26;95Hd[1;1H[26;96H7[1;1H[26;87H          [1;1H[?25h[?25l[26;87H^[[1;1H[26;87H  [1;1H[26;87H^[[1;1H[26;87H  [1;1H[?25h[?25l[26;87Hgq[1;1H[?25h[?25l[26;8[?2004hpurushottam@vbook:~/LinuxTraining$ 2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[K1$r0 q^[\^[[?12;4$y^[:wq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C!2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lbash: !2: event not found
+[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ ce[Kleat
+[?2004lCommand 'cleat' not found, did you mean:
+  command 'claat' from snap claat (v0.7.1)
+  command 'cheat' from snap cheat (4.4.0.build.2)
+  command 'clear' from deb ncurses-bin (6.3-2ubuntu0.1)
+See 'snap info <snapname>' for additional versions.
+[?2004hpurushottam@vbook:~/LinuxTraining$ exit
+[?2004lexit
+
+Script done on 2024-08-10 11:44:23+05:30 [COMMAND_EXIT_CODE="127"]
+[?2004hpurushottam@vivobook:~/LinuxTraining$ 2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[K1$r0 q^[\^[[?12;4$y2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l2RR61: command not found
+
+7600: command not found
+1c10: command not found
+bash: rgb:5050/f0f0/2e2e11: No such file or directory
+bash: rgb:5a5a/4f4f/3434: No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Pcat nondefaultscript 2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Pcat nondefaultscript clear
+[?2004lScript started on 2024-08-10 11:39:21+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="114" LINES="26"]
+[?2004hpurushottam@vbook:~/LinuxTraining$ ram[K[K[Kls *.sh
+[?2004larray.sh       DigiWatch.sh  ifExam.sh	 printcal.sh  utilityCommands.sh
+AverageOfN.sh  greet.sh      namaste.sh  ramram.sh    Voter.sh
+[?2004hpurushottam@vbook:~/LinuxTraining$ ./greet.sh 
+[?2004lHello World
+[?2004hpurushottam@vbook:~/LinuxTraining$ ./pt[KrintcC[KA[Kal.sh
+[?2004lbash: ./printcal.sh: Permission denied
+[?2004hpurushottam@vbook:~/LinuxTraining$ chmod 755 printcal.sh 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ chmod 755 printcal.sh [9P./printcal.sh
+[?2004lHi there
+[?2004hpurushottam@vbook:~/LinuxTraining$ cat nondefaultscript 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ cat typescript 
+[?2004lScript started on 2024-08-10 11:37:37+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="26"]
+[?2004hpurushottam@vbook:~/LinuxTraining$ ls typescript 
+[?2004ltypescript
+[?2004hpurushottam@vbook:~/LinuxTraining$ ls typescript [C[C[C[1@ [1@-[1@l[1@t[1@r[C[1@ 
+[?2004l-rw-rw-r-- 1 purushottam purushottam 0 Aug 10 11:37 typescript
+[?2004hpurushottam@vbook:~/LinuxTraining$ cat typescript 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ vi c[Ktypescript 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"typescript" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                 [3;1H~                                                                                                                 [4;1H~                                                                                                                 [5;1H~                                                                                                                 [6;1H~                                                                                                                 [7;1H~                                                                                                                 [8;1H~                                                                                                                 [9;1H~                                                                                                                 [10;1H~                                                                                                                 [11;1H~                                                                                                                 [12;1H~                                                                                                                 [13;1H~                                                                                                                 [14;1H~                                                                                                                 [15;1H~                                                                                                                 [16;1H~                                                                                                                 [17;1H~                                                                                                                 [18;1H~                                                                                                                 [19;1H~                                                                                                                 [20;1H~                                                                                                                 [21;1H~                                                                                                                 [22;1H~                                                                                                                 [23;1H~                                                                                                                 [24;1H~                                                                                                                 [25;1H~                                                                                                                 [m[26;97H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[26;87H:[1;1H[26;88He[1;1H[26;89H0[1;1H[26;90He[1;1H[26;91H0[1;1H[26;92H/[1;1H[26;93Hd[1;1H[26;94H7[1;1H[26;95Hd[1;1H[26;96H7[1;1H[26;87H          [1;1H[?25h[?25l[26;87H^[[1;1H[26;87H  [1;1H[26;87H^[[1;1H[26;87H  [1;1H[?25h[?25l[26;87Hgq[1;1H[?25h[?25l[26;8[?2004hpurushottam@vbook:~/LinuxTraining$ 2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[K1$r0 q^[\^[[?12;4$y^[:wq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C!2RR65;6800;1c10;rgb:0000/0202/050511;rgb:e0e0/d7d7/1e1e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lbash: !2: event not found
+[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vbook:~/LinuxTraining$ ce[Kleat
+[?2004lCommand 'cleat' not found, did you mean:
+  command 'claat' from snap claat (v0.7.1)
+  command 'cheat' from snap cheat (4.4.0.build.2)
+  command 'clear' from deb ncurses-bin (6.3-2ubuntu0.1)
+See 'snap info <snapname>' for additional versions.
+[?2004hpurushottam@vbook:~/LinuxTraining$ exit
+[?2004lexit
+
+Script done on 2024-08-10 11:44:23+05:30 [COMMAND_EXIT_CODE="127"]
+cat: clear: No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ 2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[K1$r0 q^[\^[[?12;4$yc;ear2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C12RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l1wq2RR61: command not found
+7600: command not found
+1c10: command not found
+bash: rgb:5050/f0f0/2e2e11: No such file or directory
+bash: rgb:5a5a/4f4f/3434: No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ clear
+[?2004l[H[2J[3J[?2004hpurushottam@vivobook:~/LinuxTraining$ clear1wq2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Pcat nondefaultscript clear2RR61;7600;1c10;rgb:5050/f0f0/2e2e11;rgb:5a5a/4f4f/3434[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Pcat nondefaultscript [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krm npn[K[Kondefaultscript 
+[?2004l[?2004hpurushottam@vivobook:~/LinuxTraining$ rm nondefaultscript clear[Krm nondefaultscript [Kcat nons[Kdw[Kefail[K[Ki[Kuly[Kt[Ktscript
+[?2004lcat: nondefaultscript: No such file or directory
+[?2004hpurushottam@vivobook:~/LinuxTraining$ cat nondefaultscript[K[Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$ [Kpurushottam@vivobook:~/LinuxTraining$  d[K[Kfind [K[K[K[K[Kfind . -iname"" ""[C[Kpurushottam@vivobook:~/LinuxTraining$ find . -iname ""[Kpurushottam@vivobook:~/LinuxTraining$ find . -iname ""d""f""[1P""[1P""[Cn"o"t"e"[1P"[1P"[1P"[1P"a"*"
+[?2004l./.git/hooks/applypatch-msg.sample
+./.git/objects/9e/a9bed508190a9a23d6d0f2df69a60183d8d502
+./.git/objects/7b/a97fd78d005f366a810a932bcacfa52b272c77
+./.git/objects/a1
+./.git/objects/a2
+./.git/objects/a2/a7320c8352d6d4deb8ec3dc201b146e998a353
+./.git/objects/a9
+./.git/objects/ab
+./.git/objects/ab/a1224fce54f166c571d5f6fe7d3691eea62f46
+./.git/objects/a7
+./.git/objects/61/a5445324c539ccc5390f5bdd0ca61c83cfbec7
+./.git/objects/ae
+./.git/objects/26/a584151d5faa90bfa0a683fa48c62b94bee94f
+./.git/objects/93/a083c89a378e75ef6f3924166a575be7a146be
+./AverageOfN.sh
+./awk.txt
+./array.sh
+[?2004hpurushottam@vivobook:~/LinuxTraining$ find .
